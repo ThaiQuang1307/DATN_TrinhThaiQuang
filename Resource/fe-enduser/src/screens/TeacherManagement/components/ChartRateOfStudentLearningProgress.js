@@ -51,7 +51,8 @@ const ChartRateOfStudentLearningProgress = observer(props => {
                                 title: {
                                     display: true,
                                     // text: 'Rate of student learning progress',
-                                    text: 'Tỉ lệ tiến độ của học viên',
+                                    // text: 'Tỉ lệ tiến độ của học viên',
+                                    text: 'Tiến độ của học viên',
                                     font: {
                                         size: 16
                                     }

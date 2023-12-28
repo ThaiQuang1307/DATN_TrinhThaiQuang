@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "64c1010d6ddb7dfa90ca1d12"
+  },
+  "name": "Software Technology",
+  "description": "",
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-07-26T11:18:37.253Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:10.393Z"
+  },
+  "id": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1014c6ddb7dfa90ca1d2a"
+  },
+  "name": "Data and Information Management",
+  "description": "",
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-07-26T11:19:40.727Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:12.067Z"
+  },
+  "id": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c101a96ddb7dfa90ca1d44"
+  },
+  "name": "Algorithm and Optimization",
+  "description": "",
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-07-26T11:21:13.639Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:13.816Z"
+  },
+  "id": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c101d26ddb7dfa90ca1d86"
+  },
+  "name": "Artificial Intelligence and Machine Learning",
+  "description": "",
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-07-26T11:21:54.562Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:15.782Z"
+  },
+  "id": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "653c9f0d591fc885b117ad67"
+  },
+  "name": "Công nghệ thông tin",
+  "description": "Khoa CNTT Trường Đại học Công nghiệp Hà Nội",
+  "status": 0,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-10-28T05:41:33.847Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:17.489Z"
+  },
+  "id": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d4f229203a8d56745401f"
+  },
+  "name": "Mạng máy tính",
+  "description": "Học về Mạng máy tính",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T07:17:54.100Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-19T02:09:06.831Z"
+  },
+  "id": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d6aa79203a8d567454522"
+  },
+  "name": "Học máy",
+  "description": "aaaaaaaaaaaaa",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T09:15:19.687Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-19T06:19:55.728Z"
+  },
+  "id": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d314f4f96c14d63221ec4"
+  },
+  "name": "Lập trình website",
+  "description": "Lập trình web là một trong những ngành nghề được các công ty công nghệ săn đón nhiệt tình trong thời đại số ngày nay. Mặc dù làn sóng lay off tại các công ty công nghệ đang khốc liệt nhưng nhu cầu tuyển dụng IT lập trình web  chất lượng cao vẫn cực nóng sốt. Cụ thể lập trình web là gì, đâu là cơ hội nghề nghiệp dành cho ngành nghề này?",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T08:26:55.351Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T08:26:59.974Z"
+  },
+  "id": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d31904f96c14d63221ee0"
+  },
+  "name": "Lập trình Mobile",
+  "description": "Lập trình viên mobile là một trong những ngành nghề khát nhân lực nhất hiện nay. Mobile Developer sẽ phối hợp cùng các nhóm chức năng để xây dựng và phát triển ứng dụng di động đáp ứng nhu cầu của người dùng.",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T08:28:00.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T08:28:03.409Z"
+  },
+  "id": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d31c64f96c14d63221efe"
+  },
+  "name": "Lập trình nhúng",
+  "description": "Theo định nghĩa từ wikipedia, hệ thống nhúng là:“Một thuật ngữ để chỉ một hệ thống có khả năng tự trị được nhúng vào trong một môi trường hay hệ thống mẹ. Đó là các hệ thống tích hợp cả phần cứng và phần mềm phục vụ các bài toán chuyên dụng trong nhiều lĩnh vực công nghiệp, tự động hóa điều khiển, quan trắc và truyền tin. Đặc điểm của các hệ thống nhúng là hoạt động ổn định và có tính năng tự động hoá cao.”",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T08:28:54.308Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T08:28:56.784Z"
+  },
+  "id": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d32164f96c14d63221f22"
+  },
+  "name": "Trí tuệ nhân tạo",
+  "description": "Trí tuệ nhân tạo hay trí thông minh nhân tạo (Artificial intelligence – viết tắt là AI) là một ngành thuộc lĩnh vực khoa học máy tính (Computer science). Là trí tuệ do con người lập trình tạo nên với mục tiêu giúp máy tính có thể tự động hóa các hành vi thông minh như con người.",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T08:30:14.089Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T08:30:16.507Z"
+  },
+  "id": 11,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658db796184bf357cc15ba72"
+  },
+  "name": "IoT",
+  "description": "IoT là viết tắt của cụm từ Internet of Things – dịch ra Tiếng Việt nghĩa là Internet vạn vật hoặc vạn vật kết nối.",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T17:59:50.663Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T18:06:46.016Z"
+  },
+  "id": 12,
+  "__v": 0
+}]

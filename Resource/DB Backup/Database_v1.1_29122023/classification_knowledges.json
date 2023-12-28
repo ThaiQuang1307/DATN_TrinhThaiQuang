@@ -1,0 +1,6432 @@
+[{
+  "_id": {
+    "$oid": "64c1df12e6d7c7cdc136eac3"
+  },
+  "user_course_id": {
+    "$oid": "64c1d170e6d7c7cdc136e693"
+  },
+  "time": 2,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:05:54.446Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:05:54.446Z"
+  },
+  "id": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1df12e6d7c7cdc136eac5"
+  },
+  "user_course_id": {
+    "$oid": "64c1de35e6d7c7cdc136e8fb"
+  },
+  "time": 2,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:05:54.446Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:05:54.446Z"
+  },
+  "id": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1df12e6d7c7cdc136eac4"
+  },
+  "user_course_id": {
+    "$oid": "64c1d02ae6d7c7cdc136e520"
+  },
+  "time": 2,
+  "stg": 0.64,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:05:54.446Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:05:54.446Z"
+  },
+  "id": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e3ade6d7c7cdc136f3b7"
+  },
+  "user_course_id": {
+    "$oid": "64c1d170e6d7c7cdc136e693"
+  },
+  "time": 3,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "id": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e3ade6d7c7cdc136f3b8"
+  },
+  "user_course_id": {
+    "$oid": "64c1d02ae6d7c7cdc136e520"
+  },
+  "time": 3,
+  "stg": 0.64,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "id": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e3ade6d7c7cdc136f3b9"
+  },
+  "user_course_id": {
+    "$oid": "64c1de35e6d7c7cdc136e8fb"
+  },
+  "time": 3,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "id": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e3ade6d7c7cdc136f3bc"
+  },
+  "user_course_id": {
+    "$oid": "64c1e2a0e6d7c7cdc136f01c"
+  },
+  "time": 3,
+  "stg": 1,
+  "scg": 1,
+  "str": 0.1,
+  "lpr": 0.08,
+  "peg": 0,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "id": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e3ade6d7c7cdc136f3bd"
+  },
+  "user_course_id": {
+    "$oid": "64c1e347e6d7c7cdc136f240"
+  },
+  "time": 3,
+  "stg": 0.48,
+  "scg": 0.54,
+  "str": 0.2,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "id": 11,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e3ade6d7c7cdc136f3bb"
+  },
+  "user_course_id": {
+    "$oid": "64c1e06ee6d7c7cdc136ec51"
+  },
+  "time": 3,
+  "stg": 1,
+  "scg": 1,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "id": 13,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e3ade6d7c7cdc136f3ba"
+  },
+  "user_course_id": {
+    "$oid": "64c1dff0e6d7c7cdc136eb95"
+  },
+  "time": 3,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:25:33.708Z"
+  },
+  "id": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e44ce6d7c7cdc136f8e1"
+  },
+  "user_course_id": {
+    "$oid": "64c1d170e6d7c7cdc136e693"
+  },
+  "time": 4,
+  "stg": 0.64,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "id": 15,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e44ce6d7c7cdc136f8e2"
+  },
+  "user_course_id": {
+    "$oid": "64c1d02ae6d7c7cdc136e520"
+  },
+  "time": 4,
+  "stg": 0.64,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "id": 16,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e44ce6d7c7cdc136f8e3"
+  },
+  "user_course_id": {
+    "$oid": "64c1de35e6d7c7cdc136e8fb"
+  },
+  "time": 4,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "id": 17,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e44ce6d7c7cdc136f8e4"
+  },
+  "user_course_id": {
+    "$oid": "64c1dff0e6d7c7cdc136eb95"
+  },
+  "time": 4,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "id": 18,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e44ce6d7c7cdc136f8e5"
+  },
+  "user_course_id": {
+    "$oid": "64c1e06ee6d7c7cdc136ec51"
+  },
+  "time": 4,
+  "stg": 1,
+  "scg": 1,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "id": 19,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e44ce6d7c7cdc136f8e8"
+  },
+  "user_course_id": {
+    "$oid": "64c1e3cce6d7c7cdc136f421"
+  },
+  "time": 4,
+  "stg": 0.24,
+  "scg": 0.31,
+  "str": 0.3,
+  "lpr": 0.12,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "id": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e44ce6d7c7cdc136f8e7"
+  },
+  "user_course_id": {
+    "$oid": "64c1e347e6d7c7cdc136f240"
+  },
+  "time": 4,
+  "stg": 0.48,
+  "scg": 0.54,
+  "str": 0.25,
+  "lpr": 0.16,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "id": 21,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1e44ce6d7c7cdc136f8e6"
+  },
+  "user_course_id": {
+    "$oid": "64c1e2a0e6d7c7cdc136f01c"
+  },
+  "time": 4,
+  "stg": 1,
+  "scg": 1,
+  "str": 0.14,
+  "lpr": 0.2,
+  "peg": 0.2,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:28:12.794Z"
+  },
+  "id": 22,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137054b"
+  },
+  "user_course_id": {
+    "$oid": "64c1d170e6d7c7cdc136e693"
+  },
+  "time": 5,
+  "stg": 0.64,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 28,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137054c"
+  },
+  "user_course_id": {
+    "$oid": "64c1d02ae6d7c7cdc136e520"
+  },
+  "time": 5,
+  "stg": 0.64,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 29,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137054d"
+  },
+  "user_course_id": {
+    "$oid": "64c1de35e6d7c7cdc136e8fb"
+  },
+  "time": 5,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 30,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370550"
+  },
+  "user_course_id": {
+    "$oid": "64c1e2a0e6d7c7cdc136f01c"
+  },
+  "time": 5,
+  "stg": 1,
+  "scg": 1,
+  "str": 0.35,
+  "lpr": 0.72,
+  "peg": 0.2,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 31,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370551"
+  },
+  "user_course_id": {
+    "$oid": "64c1e347e6d7c7cdc136f240"
+  },
+  "time": 5,
+  "stg": 0.48,
+  "scg": 0.54,
+  "str": 0.46,
+  "lpr": 0.68,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 32,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370552"
+  },
+  "user_course_id": {
+    "$oid": "64c1e3cce6d7c7cdc136f421"
+  },
+  "time": 5,
+  "stg": 0.24,
+  "scg": 0.31,
+  "str": 0.51,
+  "lpr": 0.64,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 33,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370553"
+  },
+  "user_course_id": {
+    "$oid": "64c1e457e6d7c7cdc136f935"
+  },
+  "time": 5,
+  "stg": 0.56,
+  "scg": 0.62,
+  "str": 0.44,
+  "lpr": 0.6,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 34,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370554"
+  },
+  "user_course_id": {
+    "$oid": "64c1e564e6d7c7cdc136fa3f"
+  },
+  "time": 5,
+  "stg": 0.25,
+  "scg": 0.31,
+  "str": 0.5,
+  "lpr": 0.6,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 35,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370555"
+  },
+  "user_course_id": {
+    "$oid": "64c1e639e6d7c7cdc136fce6"
+  },
+  "time": 5,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0.09,
+  "lpr": 0.67,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370556"
+  },
+  "user_course_id": {
+    "$oid": "64c1e66be6d7c7cdc136fdf1"
+  },
+  "time": 5,
+  "stg": 0.32,
+  "scg": 0.38,
+  "str": 0.16,
+  "lpr": 1,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 37,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370557"
+  },
+  "user_course_id": {
+    "$oid": "64c1e6c8e6d7c7cdc136fee9"
+  },
+  "time": 5,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0.06,
+  "lpr": 0.33,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "id": 38,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370558"
+  },
+  "user_course_id": {
+    "$oid": "64c1e750e6d7c7cdc136ff6b"
+  },
+  "time": 5,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.12,
+  "lpr": 0.67,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "id": 39,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc1370559"
+  },
+  "user_course_id": {
+    "$oid": "64c1e774e6d7c7cdc136ffc7"
+  },
+  "time": 5,
+  "stg": 0.24,
+  "scg": 0.31,
+  "str": 0.51,
+  "lpr": 0.56,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "id": 40,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137055a"
+  },
+  "user_course_id": {
+    "$oid": "64c1e81ae6d7c7cdc137009a"
+  },
+  "time": 5,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0.09,
+  "lpr": 0.33,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "id": 41,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137055b"
+  },
+  "user_course_id": {
+    "$oid": "64c1e8a4e6d7c7cdc1370169"
+  },
+  "time": 5,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0.24,
+  "lpr": 1,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "id": 42,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137055c"
+  },
+  "user_course_id": {
+    "$oid": "64c1e951e6d7c7cdc137028c"
+  },
+  "time": 5,
+  "stg": 0.24,
+  "scg": 0.31,
+  "str": 0.19,
+  "lpr": 1,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "id": 43,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137055d"
+  },
+  "user_course_id": {
+    "$oid": "64c1ea3be6d7c7cdc1370389"
+  },
+  "time": 5,
+  "stg": 0.16,
+  "scg": 0.23,
+  "str": 0.22,
+  "lpr": 1,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.102Z"
+  },
+  "id": 44,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137054f"
+  },
+  "user_course_id": {
+    "$oid": "64c1e06ee6d7c7cdc136ec51"
+  },
+  "time": 5,
+  "stg": 1,
+  "scg": 1,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 45,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1eaa6e6d7c7cdc137054e"
+  },
+  "user_course_id": {
+    "$oid": "64c1dff0e6d7c7cdc136eb95"
+  },
+  "time": 5,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T03:55:18.101Z"
+  },
+  "id": 46,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d6a"
+  },
+  "user_course_id": {
+    "$oid": "64c1d170e6d7c7cdc136e693"
+  },
+  "time": 6,
+  "stg": 1,
+  "scg": 1,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "id": 47,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d6b"
+  },
+  "user_course_id": {
+    "$oid": "64c1d02ae6d7c7cdc136e520"
+  },
+  "time": 6,
+  "stg": 0.64,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "id": 48,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d6c"
+  },
+  "user_course_id": {
+    "$oid": "64c1de35e6d7c7cdc136e8fb"
+  },
+  "time": 6,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "id": 49,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d6d"
+  },
+  "user_course_id": {
+    "$oid": "64c1dff0e6d7c7cdc136eb95"
+  },
+  "time": 6,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0.03,
+  "lpr": 0.14,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "id": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d6e"
+  },
+  "user_course_id": {
+    "$oid": "64c1eba2e6d7c7cdc1370964"
+  },
+  "time": 6,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0.03,
+  "lpr": 0.12,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.840Z"
+  },
+  "id": 51,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d6f"
+  },
+  "user_course_id": {
+    "$oid": "64c1e06ee6d7c7cdc136ec51"
+  },
+  "time": 6,
+  "stg": 1,
+  "scg": 1,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 52,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d70"
+  },
+  "user_course_id": {
+    "$oid": "64c1e2a0e6d7c7cdc136f01c"
+  },
+  "time": 6,
+  "stg": 1,
+  "scg": 1,
+  "str": 0.35,
+  "lpr": 0.72,
+  "peg": 0.2,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 53,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d71"
+  },
+  "user_course_id": {
+    "$oid": "64c1e347e6d7c7cdc136f240"
+  },
+  "time": 6,
+  "stg": 1,
+  "scg": 1,
+  "str": 0.46,
+  "lpr": 0.68,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 54,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d72"
+  },
+  "user_course_id": {
+    "$oid": "64c1e3cce6d7c7cdc136f421"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.31,
+  "str": 0.51,
+  "lpr": 0.64,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 55,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d73"
+  },
+  "user_course_id": {
+    "$oid": "64c1e457e6d7c7cdc136f935"
+  },
+  "time": 6,
+  "stg": 0.56,
+  "scg": 0.62,
+  "str": 0.44,
+  "lpr": 0.6,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 56,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d74"
+  },
+  "user_course_id": {
+    "$oid": "64c1e564e6d7c7cdc136fa3f"
+  },
+  "time": 6,
+  "stg": 0.25,
+  "scg": 0.31,
+  "str": 0.5,
+  "lpr": 0.6,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 57,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d75"
+  },
+  "user_course_id": {
+    "$oid": "64c1e639e6d7c7cdc136fce6"
+  },
+  "time": 6,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0.09,
+  "lpr": 0.67,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 58,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d76"
+  },
+  "user_course_id": {
+    "$oid": "64c1e66be6d7c7cdc136fdf1"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.38,
+  "str": 0.16,
+  "lpr": 1,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 59,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d77"
+  },
+  "user_course_id": {
+    "$oid": "64c1e6c8e6d7c7cdc136fee9"
+  },
+  "time": 6,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0.06,
+  "lpr": 0.33,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 60,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d78"
+  },
+  "user_course_id": {
+    "$oid": "64c1e750e6d7c7cdc136ff6b"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.12,
+  "lpr": 0.67,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 61,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d79"
+  },
+  "user_course_id": {
+    "$oid": "64c1e774e6d7c7cdc136ffc7"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.31,
+  "str": 0.51,
+  "lpr": 0.56,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 62,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d7c"
+  },
+  "user_course_id": {
+    "$oid": "64c1e951e6d7c7cdc137028c"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.31,
+  "str": 0.19,
+  "lpr": 1,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 63,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d7d"
+  },
+  "user_course_id": {
+    "$oid": "64c1ea3be6d7c7cdc1370389"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.23,
+  "str": 0.22,
+  "lpr": 1,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 64,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d7e"
+  },
+  "user_course_id": {
+    "$oid": "64c1eac0e6d7c7cdc1370626"
+  },
+  "time": 6,
+  "stg": 0.17,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 65,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d7f"
+  },
+  "user_course_id": {
+    "$oid": "64c20b97e6d7c7cdc1370c14"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.46,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 66,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d80"
+  },
+  "user_course_id": {
+    "$oid": "64c21011e6d7c7cdc1370d41"
+  },
+  "time": 6,
+  "stg": 0.88,
+  "scg": 0.92,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 67,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d81"
+  },
+  "user_course_id": {
+    "$oid": "64c3721386e51d468a06a558"
+  },
+  "time": 6,
+  "stg": 1,
+  "scg": 1,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.2,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 68,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d82"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7b1"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 69,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d83"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7b4"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0.11,
+  "lpr": 0.07,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 70,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d86"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7bd"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.37,
+  "lpr": 0.33,
+  "peg": 0.2,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 73,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d87"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7c0"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 74,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d88"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7c3"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.29,
+  "lpr": 0.27,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 75,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d89"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7c6"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.42,
+  "lpr": 0.17,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 76,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d8a"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7c9"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0.53,
+  "lpr": 0.43,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 77,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d8b"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7cc"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0.17,
+  "lpr": 0.12,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 78,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d8c"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7cf"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.26,
+  "lpr": 0.3,
+  "peg": 0.5,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 79,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d8d"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7d2"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 80,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d8e"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7d5"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.32,
+  "lpr": 0.2,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 81,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d8f"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7d8"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0.21,
+  "lpr": 0.16,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 82,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d90"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7db"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.1,
+  "lpr": 0.12,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 83,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d91"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7de"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.11,
+  "lpr": 0.14,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 84,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d92"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7e1"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 85,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d93"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7e4"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0.1,
+  "lpr": 0.08,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 86,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d94"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7e7"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 87,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d95"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7ea"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 88,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d96"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7ed"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 89,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d97"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7f0"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0.47,
+  "lpr": 0.3,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 90,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d98"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7f3"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.29,
+  "lpr": 0.23,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 91,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d99"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7f6"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0.26,
+  "lpr": 0.33,
+  "peg": 0.3,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 92,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d9a"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7f9"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.11,
+  "lpr": 0.16,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 93,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d9b"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7fc"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.32,
+  "lpr": 0.23,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 94,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d9c"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad7ff"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 95,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d9d"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad802"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.21,
+  "lpr": 0.23,
+  "peg": 0.7,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 96,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d9e"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad805"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.17,
+  "lpr": 0.02,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 97,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d9f"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad808"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 98,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da0"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad80b"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.1,
+  "lpr": 0.14,
+  "peg": 0.1,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 99,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da1"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad80e"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da2"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad811"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 101,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da3"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad814"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.14,
+  "lpr": 0.08,
+  "peg": 0.3,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 102,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da4"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad817"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.17,
+  "lpr": 0.06,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 103,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da5"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad81a"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 104,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da6"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad81d"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 105,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da7"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad820"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0.08,
+  "lpr": 0.17,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 106,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da8"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad823"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0.11,
+  "lpr": 0.07,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 107,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428da9"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad826"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.16,
+  "lpr": 0.02,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 108,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428daa"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad829"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 109,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dab"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad82c"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 110,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dac"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad82f"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 111,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dad"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad832"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 112,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dae"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad835"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 113,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428daf"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad838"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0.42,
+  "lpr": 0.27,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 114,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db0"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad83b"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.34,
+  "lpr": 0.3,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 115,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db1"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad83e"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 116,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db2"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad841"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.34,
+  "lpr": 0.37,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 117,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db3"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad844"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 118,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db4"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad847"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.26,
+  "lpr": 0.13,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db5"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad84a"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0.21,
+  "lpr": 0.17,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 120,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db6"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad84d"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.16,
+  "lpr": 0.1,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 121,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db7"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad850"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 122,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db8"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad853"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0.11,
+  "lpr": 0.13,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 123,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428db9"
+  },
+  "user_course_id": {
+    "$oid": "64c5518470a053ae1d3ad856"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0.08,
+  "lpr": 0.16,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 124,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dba"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad859"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 125,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dbb"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad85c"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.21,
+  "lpr": 0.13,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 126,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d7a"
+  },
+  "user_course_id": {
+    "$oid": "64c1e81ae6d7c7cdc137009a"
+  },
+  "time": 6,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0.09,
+  "lpr": 0.33,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 127,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d7b"
+  },
+  "user_course_id": {
+    "$oid": "64c1e8a4e6d7c7cdc1370169"
+  },
+  "time": 6,
+  "stg": 0.09,
+  "scg": 0.15,
+  "str": 0.24,
+  "lpr": 1,
+  "peg": 1,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 128,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dbe"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad865"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 129,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dbf"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad868"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 130,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc0"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad86b"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.06,
+  "lpr": 0.14,
+  "peg": 0.2,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 131,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc1"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad86e"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0.17,
+  "lpr": 0.04,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 132,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc2"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad871"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.24,
+  "lpr": 0.18,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 133,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc3"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad874"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 134,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc4"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad877"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 135,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc5"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad87a"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 136,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc6"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad87d"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 137,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc7"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad880"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.16,
+  "lpr": 0.12,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 138,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc8"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad883"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 139,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dc9"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad886"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 140,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dca"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad889"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 141,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dcb"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad88c"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 142,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d84"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7b7"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0.11,
+  "lpr": 0.07,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 71,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428d85"
+  },
+  "user_course_id": {
+    "$oid": "64c5518370a053ae1d3ad7ba"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0.53,
+  "lpr": 0.3,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.841Z"
+  },
+  "id": 72,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dce"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad895"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 145,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dcf"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad898"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.02,
+  "lpr": 0.04,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 146,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd0"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad89b"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.16,
+  "lpr": 0.07,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 147,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd1"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad89e"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 148,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd2"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8a1"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.16,
+  "lpr": 0.2,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 149,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd3"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8a4"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.06,
+  "lpr": 0.14,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd4"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8a7"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0.32,
+  "lpr": 0.26,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 151,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd5"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8aa"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 152,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd6"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8ad"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.27,
+  "lpr": 0.18,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 153,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd7"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8b0"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 154,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd8"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8b3"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0.25,
+  "lpr": 0.24,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 155,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dd9"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8b6"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0.25,
+  "lpr": 0.22,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 156,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dda"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8b9"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0.24,
+  "lpr": 0.17,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 157,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428ddb"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8bc"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.08,
+  "lpr": 0.2,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 158,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428ddc"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8bf"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 159,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428ddd"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad8c2"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 160,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dde"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8c5"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.26,
+  "lpr": 0.1,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 161,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428ddf"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8c8"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.11,
+  "lpr": 0.14,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 162,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de0"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8cb"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0.21,
+  "lpr": 0.2,
+  "peg": 0.3,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 163,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de1"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8ce"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 164,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de2"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8d1"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0.42,
+  "lpr": 0.2,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 165,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de3"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8d4"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.24,
+  "lpr": 0.37,
+  "peg": 0.3,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 166,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de4"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8d7"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 167,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de5"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8da"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0.4,
+  "lpr": 0.37,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 168,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de6"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8dd"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 169,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de7"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8e0"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 170,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de8"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8e3"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.21,
+  "lpr": 0.17,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 171,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428de9"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8e6"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.13,
+  "lpr": 0.23,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 172,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dea"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8e9"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0.37,
+  "lpr": 0.17,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 173,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428deb"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8ec"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 174,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dec"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8ef"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.26,
+  "lpr": 0.2,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 175,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428ded"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8f2"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0.13,
+  "lpr": 0.2,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 176,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dee"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8f5"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0.05,
+  "lpr": 0.07,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 177,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428def"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8f8"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 178,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df0"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8fb"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 179,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df1"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad8fe"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 180,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df2"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad901"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 181,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df3"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad904"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 182,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df4"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad907"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.14,
+  "lpr": 0.1,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 183,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df5"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad90a"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.18,
+  "lpr": 0.17,
+  "peg": 0.6,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 184,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df6"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad90d"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0.29,
+  "lpr": 0.2,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 185,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df7"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad910"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 186,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df8"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad913"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 187,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428df9"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad916"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 188,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dfa"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad919"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.26,
+  "lpr": 0.03,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 189,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dfb"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad91c"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 190,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dfc"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad91f"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.03,
+  "lpr": 0.17,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 191,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dfd"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad922"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.03,
+  "lpr": 0.23,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 192,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dfe"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad925"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0.21,
+  "lpr": 0.07,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 193,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dff"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad928"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 194,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e00"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad92b"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0.24,
+  "lpr": 0.1,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.844Z"
+  },
+  "id": 195,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e01"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad92e"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0.29,
+  "lpr": 0.27,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 196,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e02"
+  },
+  "user_course_id": {
+    "$oid": "64c5518670a053ae1d3ad931"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.13,
+  "lpr": 0.13,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 197,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e03"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad934"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0.18,
+  "lpr": 0.1,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 198,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e04"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad937"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0.08,
+  "lpr": 0.17,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 199,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e05"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad93a"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 200,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dbc"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad85f"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0.03,
+  "lpr": 0.27,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 201,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dbd"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad862"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0.03,
+  "lpr": 0.06,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.842Z"
+  },
+  "id": 202,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e08"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad943"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 203,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e09"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad946"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.24,
+  "lpr": 0.07,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 204,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e0a"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad949"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 205,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e0b"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad94c"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.16,
+  "lpr": 0.17,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 206,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e0c"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad94f"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.08,
+  "lpr": 0.18,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 207,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e0d"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad952"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 208,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e0e"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad955"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 209,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e0f"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad958"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 210,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e10"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad95b"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 211,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e11"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad95e"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0.24,
+  "lpr": 0.27,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 212,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e12"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad961"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.05,
+  "lpr": 0.1,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 213,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e13"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad964"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 214,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e14"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad967"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.11,
+  "lpr": 0.2,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 215,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e15"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad96a"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 216,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e16"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad96d"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 217,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e17"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad970"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 218,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dcc"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad88f"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0.13,
+  "lpr": 0.16,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 143,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428dcd"
+  },
+  "user_course_id": {
+    "$oid": "64c5518570a053ae1d3ad892"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.03,
+  "lpr": 0.3,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.843Z"
+  },
+  "id": 144,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e1a"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad979"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.29,
+  "lpr": 0.23,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 221,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e1b"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad97c"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 222,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e1c"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad97f"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 223,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e1d"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad982"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0.05,
+  "lpr": 0.06,
+  "peg": 0.1,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 224,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e1e"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad985"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0.16,
+  "lpr": 0.02,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 225,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e1f"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad988"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 226,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e20"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad98b"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 227,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e21"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad98e"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 228,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e22"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad991"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 229,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e23"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad994"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.18,
+  "lpr": 0.13,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 230,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e24"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad997"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 231,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e25"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad99a"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 232,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e26"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad99d"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 233,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e27"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad9a0"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 234,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e28"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad9a3"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 235,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e29"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad9a6"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0.22,
+  "lpr": 0.08,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 236,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e2a"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9a9"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0.32,
+  "lpr": 0.18,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 237,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e2b"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9ac"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0.19,
+  "lpr": 0.14,
+  "peg": 0.3,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 238,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e2c"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9af"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 239,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e2d"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9b2"
+  },
+  "time": 6,
+  "stg": 0.71,
+  "scg": 0.69,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 240,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e2e"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9b5"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.03,
+  "lpr": 0.17,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 241,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e2f"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9b8"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0.16,
+  "lpr": 0.2,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 242,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e30"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9bb"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0.05,
+  "lpr": 0.17,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 243,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e31"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9be"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0.26,
+  "lpr": 0.2,
+  "peg": 0.5,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 244,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e32"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9c1"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 245,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e33"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9c4"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 246,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e34"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9c7"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 247,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e35"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9ca"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0.11,
+  "lpr": 0.14,
+  "peg": 0.2,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 248,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e36"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9cd"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0.03,
+  "lpr": 0.04,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 249,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e37"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9d0"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 250,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e38"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9d3"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 251,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e39"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9d6"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0.21,
+  "lpr": 0.2,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 252,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e3a"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9d9"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0.26,
+  "lpr": 0.3,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 253,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e3b"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9dc"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.47,
+  "lpr": 0.5,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 254,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e3c"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9df"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 255,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e3d"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9e2"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 256,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e3e"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9e5"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.3,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 257,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e3f"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9e8"
+  },
+  "time": 6,
+  "stg": 0.79,
+  "scg": 0.77,
+  "str": 0.08,
+  "lpr": 0.14,
+  "peg": 0.7,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 258,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e40"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9eb"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0.16,
+  "lpr": 0.14,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 259,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e41"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9ee"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.05,
+  "lpr": 0.12,
+  "peg": 0.7,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 260,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e42"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9f1"
+  },
+  "time": 6,
+  "stg": 0.32,
+  "scg": 0.31,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 261,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e43"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9f4"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0.1,
+  "lpr": 0.14,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 262,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e44"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9f7"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.14,
+  "lpr": 0.26,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 263,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e45"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9fa"
+  },
+  "time": 6,
+  "stg": 0.4,
+  "scg": 0.38,
+  "str": 0.16,
+  "lpr": 0.03,
+  "peg": 0.4,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 264,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e46"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ad9fd"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 265,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e47"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada00"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0.13,
+  "lpr": 0.13,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 266,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e48"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada03"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 267,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e49"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada06"
+  },
+  "time": 6,
+  "stg": 0.63,
+  "scg": 0.62,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.1,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 268,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e4a"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada09"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0.03,
+  "lpr": 0.12,
+  "peg": 0.9,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 269,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e4b"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada0c"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 270,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e4c"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada0f"
+  },
+  "time": 6,
+  "stg": 0.16,
+  "scg": 0.15,
+  "str": 0.11,
+  "lpr": 0.18,
+  "peg": 0.6,
+  "class": "Middle",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 271,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e4d"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada12"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 272,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e4e"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada15"
+  },
+  "time": 6,
+  "stg": 0.08,
+  "scg": 0.08,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.8,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 273,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e4f"
+  },
+  "user_course_id": {
+    "$oid": "64c5518870a053ae1d3ada18"
+  },
+  "time": 6,
+  "stg": 0.55,
+  "scg": 0.54,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 274,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e50"
+  },
+  "user_course_id": {
+    "$oid": "64c5518970a053ae1d3ada1b"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.852Z"
+  },
+  "id": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e06"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad93d"
+  },
+  "time": 6,
+  "stg": 0,
+  "scg": 0,
+  "str": 0.26,
+  "lpr": 0.27,
+  "peg": 0,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 276,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e07"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad940"
+  },
+  "time": 6,
+  "stg": 0.24,
+  "scg": 0.23,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.4,
+  "class": "Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 277,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e18"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad973"
+  },
+  "time": 6,
+  "stg": 0.48,
+  "scg": 0.46,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.2,
+  "class": "Very Low",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 219,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c551fa06f38df611428e19"
+  },
+  "user_course_id": {
+    "$oid": "64c5518770a053ae1d3ad976"
+  },
+  "time": 6,
+  "stg": 0.87,
+  "scg": 0.85,
+  "str": 0,
+  "lpr": 0,
+  "peg": 0.7,
+  "class": "High",
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T17:52:58.851Z"
+  },
+  "id": 220,
+  "__v": 0
+}]

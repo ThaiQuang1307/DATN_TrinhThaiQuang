@@ -14,14 +14,14 @@ const DashBoardScreen = observer(props => {
     return (
         <div className='dashboard-screen'>
             {/* <ClassificationApplication/> */}
-            <div className='mg-t-50 row'>
-                {/* <div className='col-6'>
+            {/* <div className='mg-t-50 row'>
+                <div className='col-6'>
                     <ChartClassificationKnowledge/>
-                </div> */}
+                </div>
                 <div className='col-6'>
                     <ChartRateOfStudentLearningProgress />
                 </div>
-            </div>
+            </div> */}
             <div className='mg-t-50'>
                 <ChartStudentCourse />
             </div>
