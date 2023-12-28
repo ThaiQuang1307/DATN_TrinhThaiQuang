@@ -31,7 +31,8 @@ const JoinCourseCard = (props) => {
         const notView = lastTimeViewed <= videoLength ? videoLength - lastTimeViewed : 0;
 
         return {
-            labels: ['Viewed', 'Not view'],
+            // labels: ['Viewed', 'Not view'],
+            labels: ['Đã xem', 'Chưa xem'],
             datasets: [{
                 label: 'Time',
                 data: [viewed, notView],

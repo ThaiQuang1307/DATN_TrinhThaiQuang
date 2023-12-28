@@ -1,0 +1,347 @@
+[{
+  "_id": {
+    "$oid": "64192970c85a5064f171da80"
+  },
+  "name": "Admin",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "admin00@yopmail.com",
+  "uuid": null,
+  "private_code": null,
+  "phone_number": null,
+  "password": "$2b$09$WfsLE4sqXZRqILvmei.gMOaq2cBq07hqGQ.0ohIrTMCrrPpl6hWH6",
+  "role_id": 0,
+  "permission_id": {
+    "$oid": "641928b9111ea540d07363b3"
+  },
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-03-21T03:50:08.407Z"
+  },
+  "updated_at": {
+    "$date": "2023-06-16T03:43:42.733Z"
+  },
+  "id": 1,
+  "__v": 0,
+  "image": null,
+  "introduction": null,
+  "subject": null,
+  "uuid_email": null
+},
+{
+  "_id": {
+    "$oid": "657d48d89203a8d567453c04"
+  },
+  "name": "Trưởng khoa CNTT - HAUI",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "quangtt.haui@gmail.com",
+  "uuid": "823cf3af-aec1-41fa-bb49-98f5e9a6f505",
+  "uuid_email": null,
+  "private_code": "908044",
+  "phone_number": null,
+  "password": null,
+  "introduction": null,
+  "image": null,
+  "subject": null,
+  "link": null,
+  "role_id": 0,
+  "permission_id": {
+    "$oid": "657d46ac9203a8d567453a3d"
+  },
+  "status": 2,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-12-16T06:51:04.031Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T09:50:42.900Z"
+  },
+  "id": 73,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d4ac89203a8d567453c6a"
+  },
+  "name": "Giáo viên Trịnh Thái Quảng",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "quangmath1307@gmail.com",
+  "uuid": "4fe22898-3a35-4d2e-b4aa-5c878955af17",
+  "uuid_email": null,
+  "private_code": "307358",
+  "phone_number": null,
+  "password": null,
+  "introduction": "<p>Mô tả aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>",
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1702709959/ecourses/user-images/oj5ioositwrh7lofqhng.png",
+  "subject": "SOFTWARE_TECHNOLOGY",
+  "link": {
+    "twitter": "https://www.facebook.com/thaiquang.dev.1307?locale=vi_VN",
+    "facebook": "https://www.facebook.com/thaiquang.dev.1307?locale=vi_VN",
+    "linkedin": "https://www.facebook.com/thaiquang.dev.1307?locale=vi_VN"
+  },
+  "role_id": 2,
+  "permission_id": null,
+  "status": 2,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-12-16T06:59:20.814Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T07:14:23.758Z"
+  },
+  "id": 74,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d4bf59203a8d567453cac"
+  },
+  "name": "Khoa CNTT",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "quangtt.dev@gmail.com",
+  "uuid": null,
+  "uuid_email": null,
+  "private_code": null,
+  "phone_number": null,
+  "password": "$2b$09$torpsdMBVYRSUB3Up.0OI.L9hs36293E05/bJpQ5WOLU.hmQxymcK",
+  "introduction": null,
+  "image": null,
+  "subject": null,
+  "link": null,
+  "role_id": 0,
+  "permission_id": {
+    "$oid": "657d46ac9203a8d567453a3d"
+  },
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-12-16T07:04:21.566Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T07:11:15.744Z"
+  },
+  "id": 75,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d4dd19203a8d567453ee2"
+  },
+  "name": "Khoa CNTT",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "quangtt.dev@gmail.com",
+  "uuid": null,
+  "uuid_email": null,
+  "private_code": null,
+  "phone_number": null,
+  "password": "$2b$09$jr59vxRoCALHS56hNQhO7OFBiuSf33bupcuxB9WMVh.tJhJqsiihm",
+  "introduction": null,
+  "image": null,
+  "subject": null,
+  "link": null,
+  "role_id": 0,
+  "permission_id": {
+    "$oid": "657d46ac9203a8d567453a3d"
+  },
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T07:12:17.664Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T04:29:33.038Z"
+  },
+  "id": 76,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d4ea19203a8d567453f3c"
+  },
+  "name": "GV. Trịnh Thái Quảng",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "quangmath1307@gmail.com",
+  "uuid": null,
+  "uuid_email": null,
+  "private_code": null,
+  "phone_number": null,
+  "password": "$2b$09$6y7XlE2iGB/29Mk3a5JPCuUUG2ONqMFNlYCdN7FBizswHjBjqz.k2",
+  "introduction": "<p>TS. Trịnh Thái Quảng, chức danh Tiến sĩ Công nghệ thông tin, chuyên môn chuyên sâu trí tuệ nhân tạo ( ngành hẹp ứng dụng trí tuệ nhân tạo thực tiễn, tính toán mềm, học máy và phân tích dữ liệu lớn) giảng dạy và nghiên cứu tại Khoa công nghệ thông tin – trường Đại học Công nghiệp Hà Nội. Anh đã công bố 30 công trình nghiên cứu khoa học trong index ISI / SCOPUS trong tổng số các công trình khoa học của các tạp chí uy tín quốc tế, hội thảo quốc tế trong và ngoài nước. Hiện là chuyên gia tư vấn cho các dự án hợp tác doanh nghiệp trong lĩnh vực trí tuệ nhân tạo, học máy và phân tích dữ liệu lớn trong cuộc cách mạng công nghiệp 4.0. TS. Quảng cũng tham gia, chủ trì, phản biện các phiên hội thảo quốc tế và tạp chí quốc tế uy tín như: IEEE transaction, IEEE access, Soft computing, Neural computing and Neural computing applications.</p>",
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703749204/ecourses/user-images/qlry9p47rlzpulskbzmx.png",
+  "subject": "COMPUTER_ENGINEERING",
+  "link": {
+    "twitter": "https://www.linkedin.com/in/quang-trinh-dev/",
+    "facebook": "https://www.linkedin.com/in/quang-trinh-dev/",
+    "linkedin": "https://www.linkedin.com/in/quang-trinh-dev/"
+  },
+  "role_id": 2,
+  "permission_id": null,
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T07:15:45.865Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T07:40:06.088Z"
+  },
+  "id": 77,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d51129203a8d567454136"
+  },
+  "name": "Học viên Thai Quang",
+  "gender": 0,
+  "birthday": "2023/12/06",
+  "country": "VN",
+  "address": "Hà Nội",
+  "email": "quangtt.haui@gmail.com",
+  "uuid": null,
+  "uuid_email": null,
+  "private_code": null,
+  "phone_number": "0343136604",
+  "password": "$2b$09$lVb3aRMgIgWfuo.yddT1te6eOMwtc4Iqbvo2p7y.wAXcUaHT6j2yW",
+  "introduction": null,
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1702713046/ecourses/user-images/pnpiujkegol1nfcprccq.png",
+  "subject": null,
+  "link": null,
+  "role_id": 1,
+  "permission_id": null,
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T07:26:10.030Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-19T10:44:46.254Z"
+  },
+  "id": 78,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658ced0909d806f567c8d16c"
+  },
+  "name": "Giáo viên 01",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "giaovientest01@gmail.com",
+  "uuid": null,
+  "uuid_email": null,
+  "private_code": null,
+  "phone_number": null,
+  "password": "$2b$09$Xs/hD79nMsd99t1DDMTfBOYzXWVxmctsPDSxXT.lfe4dTCgdiTFrC",
+  "introduction": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(10,10,10);font-size:14px;\">TS. Giáo viên 01, chức danh Tiến sĩ Công nghệ thông tin, chuyên môn chuyên sâu trí tuệ nhân tạo ( ngành hẹp ứng dụng trí tuệ nhân tạo thực tiễn, tính toán mềm, học máy và phân tích dữ liệu lớn) giảng dạy và nghiên cứu tại Khoa công nghệ thông tin – trường Đại học Công nghiệp Hà Nội. Anh đã công bố 30 công trình nghiên cứu khoa học trong index ISI / SCOPUS trong tổng số các công trình khoa học của các tạp chí uy tín quốc tế, hội thảo quốc tế trong và ngoài nước. Hiện là chuyên gia tư vấn cho các dự án hợp tác doanh nghiệp trong lĩnh vực trí tuệ nhân tạo, học máy và phân tích dữ liệu lớn trong cuộc cách mạng công nghiệp 4.0. TS. 01 cũng tham gia, chủ trì, phản biện các phiên hội thảo quốc tế và tạp chí quốc tế uy tín như: IEEE transaction, IEEE access, Soft computing, Neural computing and Neural computing applications.</span></p>",
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703749137/ecourses/user-images/kvioi2vx4jwoatg5nphf.jpg",
+  "subject": "SOFTWARE_TECHNOLOGY",
+  "link": {
+    "twitter": "https://www.linkedin.com/in/quang-trinh-dev/",
+    "facebook": "https://www.linkedin.com/in/quang-trinh-dev/",
+    "linkedin": "https://www.linkedin.com/in/quang-trinh-dev/"
+  },
+  "role_id": 2,
+  "permission_id": null,
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T03:35:37.090Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T07:38:58.643Z"
+  },
+  "id": 79,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d23754f96c14d63221867"
+  },
+  "name": "Giáo viên 02",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "giaovientest02@gmail.com",
+  "uuid": null,
+  "uuid_email": null,
+  "private_code": null,
+  "phone_number": null,
+  "password": "$2b$09$DLE9GoIrOKME/hCodkie2OHuM3mDmj0ciAzHr3hKyX6q5JRiZiDGe",
+  "introduction": "<p>TS. Giáo viên 02, chức danh Tiến sĩ Công nghệ thông tin, chuyên môn chuyên sâu trí tuệ nhân tạo ( ngành hẹp ứng dụng trí tuệ nhân tạo thực tiễn, tính toán mềm, học máy và phân tích dữ liệu lớn) giảng dạy và nghiên cứu tại Khoa công nghệ thông tin – trường Đại học Công nghiệp Hà Nội. Anh đã công bố 30 công trình nghiên cứu khoa học trong index ISI / SCOPUS trong tổng số các công trình khoa học của các tạp chí uy tín quốc tế, hội thảo quốc tế trong và ngoài nước. Hiện là chuyên gia tư vấn cho các dự án hợp tác doanh nghiệp trong lĩnh vực trí tuệ nhân tạo, học máy và phân tích dữ liệu lớn trong cuộc cách mạng công nghiệp 4.0. TS. Giáo viên 02 cũng tham gia, chủ trì, phản biện các phiên hội thảo quốc tế và tạp chí quốc tế uy tín như: IEEE transaction, IEEE access, Soft computing, Neural computing and Neural computing applications.</p>",
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703748468/ecourses/user-images/bsxrko6qd3m6qmrjeia8.jpg",
+  "subject": "COMPUTER_SCIENCE",
+  "link": {
+    "twitter": "https://www.linkedin.com/in/quang-trinh-dev/",
+    "facebook": "https://www.linkedin.com/in/quang-trinh-dev/",
+    "linkedin": "https://www.linkedin.com/in/quang-trinh-dev/"
+  },
+  "role_id": 2,
+  "permission_id": null,
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T07:27:49.371Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T07:28:10.695Z"
+  },
+  "id": 80,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d2b624f96c14d63221c93"
+  },
+  "name": "Giáo viên 03",
+  "gender": null,
+  "birthday": null,
+  "country": null,
+  "address": null,
+  "email": "giaovientest03@gmail.com",
+  "uuid": null,
+  "uuid_email": null,
+  "private_code": null,
+  "phone_number": null,
+  "password": "$2b$09$Mfli3BK7AU7LQSZpjEl2U.sgCecZPjBYcmtDMQAFJvOnTbn0DV0li",
+  "introduction": "<p>TS. Giáo viên 03, chức danh Tiến sĩ Công nghệ thông tin, chuyên môn chuyên sâu trí tuệ nhân tạo ( ngành hẹp ứng dụng trí tuệ nhân tạo thực tiễn, tính toán mềm, học máy và phân tích dữ liệu lớn) giảng dạy và nghiên cứu tại Khoa công nghệ thông tin – trường Đại học Công nghiệp Hà Nội. Anh đã công bố 30 công trình nghiên cứu khoa học trong index ISI / SCOPUS trong tổng số các công trình khoa học của các tạp chí uy tín quốc tế, hội thảo quốc tế trong và ngoài nước. Hiện là chuyên gia tư vấn cho các dự án hợp tác doanh nghiệp trong lĩnh vực trí tuệ nhân tạo, học máy và phân tích dữ liệu lớn trong cuộc cách mạng công nghiệp 4.0. TS. Giáo viên 03 cũng tham gia, chủ trì, phản biện các phiên hội thảo quốc tế và tạp chí quốc tế uy tín như: IEEE transaction, IEEE access, Soft computing, Neural computing and Neural computing applications.</p>",
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703750498/ecourses/user-images/jdfhw5ryqx47soxtvykw.jpg",
+  "subject": "INFORMATION_SYSTEM",
+  "link": {
+    "twitter": "https://www.linkedin.com/in/quang-trinh-dev/",
+    "facebook": "https://www.linkedin.com/in/quang-trinh-dev/",
+    "linkedin": "https://www.linkedin.com/in/quang-trinh-dev/"
+  },
+  "role_id": 2,
+  "permission_id": null,
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T08:01:38.908Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T08:02:04.282Z"
+  },
+  "id": 81,
+  "__v": 0
+}]

@@ -73,7 +73,8 @@ const RateCommentsTab = observer(props => {
                         <div className='media mb-4' key={e.id}>
                             <img src={e.user?.image || '/images/user-avatar-default.svg'} alt='Image' className='img-fluid rounded-circle mr-3 mt-1' style={{ width: '45px', height: '45px' }} />
                             <div className='media-body'>
-                                <h6>{userInfo?.id === e.user?.id ? 'You' : e.user?.name} <small><i>{moment(e.createdAt).format('DD MMM YYYY [at] hh:mmA')}</i></small></h6>
+                                {/* <h6>{userInfo?.id === e.user?.id ? 'You' : e.user?.name} <small><i>{moment(e.createdAt).format('DD MMM YYYY [-] hh:mmA')}</i></small></h6> */}
+                                <h6>{userInfo?.id === e.user?.id ? 'Bạn' : e.user?.name} <small><i>{moment(e.createdAt).format('DD MMM YYYY [-] hh:mmA')}</i></small></h6>
                                 <p>{e.content}</p>
                             </div>
                         </div>

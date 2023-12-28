@@ -80,7 +80,7 @@ const ReactTable = ({
         {
             columns,
             data,
-            initialState: { initialTableState, selectedRowIds},
+            initialState: { initialTableState, selectedRowIds },
             manualSortBy: enableServerSidePaging,
             getRowId: getRowId || ((row, relativeIndex, parent) => {
                 const rowData = toJS(row);
@@ -104,7 +104,7 @@ const ReactTable = ({
                             // The header can use the table's getToggleAllRowsSelectedProps method
                             // to render a checkbox
                             Header: (({ getToggleAllRowsSelectedProps }) => {
-                                if(disableSubRowSelect && !lstDisabledRowSelect.includes(false) && !checkedDisabledRowSelect) {
+                                if (disableSubRowSelect && !lstDisabledRowSelect.includes(false) && !checkedDisabledRowSelect) {
                                     return (
                                         <div>
                                             <IndeterminateCheckbox
@@ -153,30 +153,30 @@ const ReactTable = ({
                     columns;
             });
 
-        //   // disable row selected
-        // if (disableSubRowSelect) {
-        //   hooks.getToggleAllRowsSelectedProps = [
-        //     (props, { instance }) => [
-        //       props,
-        //       {
-        //         onChange: () => {
-        //           instance.rows.forEach((row) =>
-        //             row.toggleRowSelected(
-        //               !instance.rows.every((row) => row.isSelected)
-        //             )
-        //           );
-        //         },
-        //         style: {cursor: 'pointer'},
-        //         checked: instance.rows.every((row) => row.isSelected),
-        //         title: 'Toggle All Rows Selected',
-        //         indeterminate: Boolean(
-        //           !instance.isAllRowsSelected &&
-        //             Object.keys(instance.state.selectedRowIds).length
-        //         ),
-        //       },
-        //     ],
-        //   ];
-        // }
+            //   // disable row selected
+            // if (disableSubRowSelect) {
+            //   hooks.getToggleAllRowsSelectedProps = [
+            //     (props, { instance }) => [
+            //       props,
+            //       {
+            //         onChange: () => {
+            //           instance.rows.forEach((row) =>
+            //             row.toggleRowSelected(
+            //               !instance.rows.every((row) => row.isSelected)
+            //             )
+            //           );
+            //         },
+            //         style: {cursor: 'pointer'},
+            //         checked: instance.rows.every((row) => row.isSelected),
+            //         title: 'Toggle All Rows Selected',
+            //         indeterminate: Boolean(
+            //           !instance.isAllRowsSelected &&
+            //             Object.keys(instance.state.selectedRowIds).length
+            //         ),
+            //       },
+            //     ],
+            //   ];
+            // }
         }
     );
 
@@ -185,7 +185,7 @@ const ReactTable = ({
         if (
             enableServerSidePaging && isOrderByStateChange(state, initialTableState)
         ) {
-            if(data.length > 0) {
+            if (data.length > 0) {
                 onFetch(state);
             }
         }
@@ -210,7 +210,7 @@ const ReactTable = ({
     //         onFetch(state);
     //     }
     // }, [
-        
+
     //     ///initialTableState,
     //     state?.sortBy,
     // ]);
@@ -229,7 +229,7 @@ const ReactTable = ({
                     if (row) {
                         rows.push(row);
                     }
-                } 
+                }
                 if (!rowKey && state.selectedRowIds[idx]) {
                     if (tableData[Number(idx)]) {
                         rows.push(tableData[Number(idx)]);
@@ -288,111 +288,112 @@ const ReactTable = ({
                 {...getTableProps()}
                 className='table table-bordered'
             >
-                {!hideTableHeader && 
-            <thead>
-                {headerGroups.map((headerGroup, i) => (
-                    <tr {...headerGroup.getHeaderGroupProps()} key={i}>
-                        {headerGroup.headers.map((column, k) => (
-                            <th
-                                {...column.getHeaderProps(
-                                    column.canSort ? column.getSortByToggleProps({
-                                        title: 'Change sort'
-                                    }) : ''
-                                )}
-                                width={column.width}
-                                key={'row_' + i + '_' + k}
-                                className={
-                                    'cansort_' + column.canSort + '_sorted_' + column.isSorted + ' ' + column?.headerClassName
-                                }
-                            >
-                                {column.render('Header')}
-                                {   column.canSort &&
-                            <span className='mg-l-5'>
-                                {
-                                    column.isSorted ?
-                                        column.isSortedDesc ? 
-                                            <i className='fas fa-long-arrow-alt-down'></i>                                
-                                            :
-                                            <i className='fas fa-long-arrow-alt-up'></i>                                
-                                        : 
-                                        <i className='fas fa-exchange-alt fa-rotate-90'></i>
-                                }
-                            </span>
-                                }
-                            </th>
+                {!hideTableHeader &&
+                    <thead>
+                        {headerGroups.map((headerGroup, i) => (
+                            <tr {...headerGroup.getHeaderGroupProps()} key={i}>
+                                {headerGroup.headers.map((column, k) => (
+                                    <th
+                                        {...column.getHeaderProps(
+                                            column.canSort ? column.getSortByToggleProps({
+                                                title: 'Change sort'
+                                            }) : ''
+                                        )}
+                                        width={column.width}
+                                        key={'row_' + i + '_' + k}
+                                        className={
+                                            'cansort_' + column.canSort + '_sorted_' + column.isSorted + ' ' + column?.headerClassName
+                                        }
+                                    >
+                                        {column.render('Header')}
+                                        {column.canSort &&
+                                            <span className='mg-l-5'>
+                                                {
+                                                    column.isSorted ?
+                                                        column.isSortedDesc ?
+                                                            <i className='fas fa-long-arrow-alt-down'></i>
+                                                            :
+                                                            <i className='fas fa-long-arrow-alt-up'></i>
+                                                        :
+                                                        <i className='fas fa-exchange-alt fa-rotate-90'></i>
+                                                }
+                                            </span>
+                                        }
+                                    </th>
+                                ))}
+                            </tr>
                         ))}
-                    </tr>
-                ))}
-            </thead>
+                    </thead>
                 }
                 <tbody {...getTableBodyProps()}>
                     {renderITems.length > 0 &&
-                renderITems.map((row, i) => {
-                    prepareRow(row);
-                    let customRowClass = '';
-                    if (rowClass) customRowClass = rowClass(row);
-                    return (
-                        <tr
-                            key={i}
-                            className={
-                                // disableFieldValue &&
-                                //   row.original[disableField] !== disableFieldValue
-                                //   ? 'disable ' + customRowClass
-                                //   : customRowClass
-                                getRowClass(tblCode, row, customRowClass, disableField, disableFieldValue)
-                            }
-                        >
-                            {row.cells.map((cell, k) => {
-                                return (
-                                    <td
-                                        width={cell?.column?.width}
-                                        className={cell?.column?.className}
-                                        {...cell.getCellProps()}
-                                        key={i + '_' + k}
-                                    >
-                                        {cell.render('Cell')}
-                                    </td>
-                                );
-                            })}
-                        </tr>
-                    );
-                })}
+                        renderITems.map((row, i) => {
+                            prepareRow(row);
+                            let customRowClass = '';
+                            if (rowClass) customRowClass = rowClass(row);
+                            return (
+                                <tr
+                                    key={i}
+                                    className={
+                                        // disableFieldValue &&
+                                        //   row.original[disableField] !== disableFieldValue
+                                        //   ? 'disable ' + customRowClass
+                                        //   : customRowClass
+                                        getRowClass(tblCode, row, customRowClass, disableField, disableFieldValue)
+                                    }
+                                >
+                                    {row.cells.map((cell, k) => {
+                                        return (
+                                            <td
+                                                width={cell?.column?.width}
+                                                className={cell?.column?.className}
+                                                {...cell.getCellProps()}
+                                                key={i + '_' + k}
+                                            >
+                                                {cell.render('Cell')}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                            );
+                        })}
                 </tbody>
                 <tfoot>
                     {tableFooter && tableFooter}
                 </tfoot>
             </table>
             {!hideTableFooter &&
-            <div className='table-footer'>
-                {data.length !== 0 ? (
-                    !disablePaging && (
-                        <>
-                            <PagingInfo
-                                tableState={enableServerSidePaging ? initialTableState : state}
-                            />
-                            <ReactPaging
-                                forcePage={enableServerSidePaging ? initialTableState.pageIndex : state.pageIndex}
-                                pageCount={Math.ceil(
-                                    (enableServerSidePaging ? initialTableState?.totalRecord : rows.length) / state.pageSize
-                                )}
-                                onPageChange={({ selected }) => {
-                                    if (enableServerSidePaging) {
-                                        state.pageIndex = selected;
-                                        onFetch(state);
-                                    } else {
-                                        gotoPage(selected);
-                                        changePageIndexProp(selected);
-                                    }
-                                }}
-                            />
-                        </>
-                    )
-                ) : (
-                    <div className='table-no-data w-100'>
-                        {!disabledNoData && <p>No data</p>}
-                    </div>
-                )}
-            </div>
+                <div className='table-footer'>
+                    {data.length !== 0 ? (
+                        !disablePaging && (
+                            <>
+                                <PagingInfo
+                                    tableState={enableServerSidePaging ? initialTableState : state}
+                                />
+                                <ReactPaging
+                                    forcePage={enableServerSidePaging ? initialTableState.pageIndex : state.pageIndex}
+                                    pageCount={Math.ceil(
+                                        (enableServerSidePaging ? initialTableState?.totalRecord : rows.length) / state.pageSize
+                                    )}
+                                    onPageChange={({ selected }) => {
+                                        if (enableServerSidePaging) {
+                                            state.pageIndex = selected;
+                                            onFetch(state);
+                                        } else {
+                                            gotoPage(selected);
+                                            changePageIndexProp(selected);
+                                        }
+                                    }}
+                                />
+                            </>
+                        )
+                    ) : (
+                        <div className='table-no-data w-100'>
+                            {/* {!disabledNoData && <p>No data</p>} */}
+                            {!disabledNoData && <p>Không có dữ liệu</p>}
+                        </div>
+                    )}
+                </div>
             }
         </div>
     );

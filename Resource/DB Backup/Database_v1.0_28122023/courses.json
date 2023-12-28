@@ -1,0 +1,3024 @@
+[{
+  "_id": {
+    "$oid": "64c109c95b89c93e354dc682"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1010d6ddb7dfa90ca1d12"
+  },
+  "created_at": {
+    "$date": "2023-07-26T11:55:53.181Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 1,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691483673/ecourses/course-images/wepco6a0dnddtpscpua4.png",
+  "name": "Introduction Software Technology",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479aa5b2bd3396fe3277587"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:24:55.207Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690372513/ecourses/course-videos/zm2boectcgt2pbyecsk4.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c10d665b89c93e354dc76a"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1010d6ddb7dfa90ca1d12"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:11:18.795Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 2,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691484423/ecourses/course-images/f3iwm12ndj0drpitkzdg.jpg",
+  "name": "Design and Build Software",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479aa5b2bd3396fe3277587"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:24:57.164Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690373437/ecourses/course-videos/fim1izzlo46x1aiw2izj.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c10dd75b89c93e354dc7ff"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1010d6ddb7dfa90ca1d12"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:13:11.887Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 3,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691484514/ecourses/course-images/hxebhqcqzd9bebvanvh0.png",
+  "name": "Web Programming",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479aa5b2bd3396fe3277587"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:24:58.796Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690373557/ecourses/course-videos/xvkt79cvswk8tyogkyl8.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c10e235b89c93e354dc82d"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1010d6ddb7dfa90ca1d12"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:14:27.728Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 4,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691484767/ecourses/course-images/mqmxyfolzufv109je47i.jpg",
+  "name": "Object Oriented Programming",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479aa5b2bd3396fe3277587"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:01.021Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690373632/ecourses/course-videos/ftih7oabbptpz0mz7dvu.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c10e7b5b89c93e354dc85c"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1010d6ddb7dfa90ca1d12"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:15:55.105Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 5,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691484962/ecourses/course-images/ofuosuis4a5i7kr5jbai.jpg",
+  "name": "System Analysis and Design",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "646c7dc1a6579d642ba6c113"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:02.731Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690373710/ecourses/course-videos/offq7v4py3asynsecuzx.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c10ed25b89c93e354dc9b4"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1010d6ddb7dfa90ca1d12"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:17:22.691Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 6,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691485137/ecourses/course-images/g2m8akahplqfvgatwcf4.png",
+  "name": "User interface",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479aae12bd3396fe327759b"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:04.536Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690373805/ecourses/course-videos/anazwxiftcnrobbiyanh.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c10f435b89c93e354dca18"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1014c6ddb7dfa90ca1d2a"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:19:15.191Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 7,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691485273/ecourses/course-images/lsuzkrevxekkqtqqbzd0.jpg",
+  "name": "Database",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479a9a82bd3396fe3277557"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:06.182Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690373907/ecourses/course-videos/odlndhme2e6tyznrlbrn.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c10f8d5b89c93e354dca5f"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1014c6ddb7dfa90ca1d2a"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:20:29.794Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 8,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691485415/ecourses/course-images/ybbo3ts5zbxgon9mspqu.png",
+  "name": "Data and XML Integration",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479a9a82bd3396fe3277557"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:24.406Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690373993/ecourses/course-videos/ftgz4lalngj56igp6cdl.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c10ffb5b89c93e354dcaa8"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1014c6ddb7dfa90ca1d2a"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:22:19.142Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 9,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691485537/ecourses/course-images/qxo1ngulu1cv3uwploi4.jpg",
+  "name": "Database Design and Administration",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479a9a82bd3396fe3277557"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:26.285Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374098/ecourses/course-videos/cmlrxzwnpzurlaqffrex.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c110495b89c93e354dcb25"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c1014c6ddb7dfa90ca1d2a"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:23:37.798Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 10,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691485613/ecourses/course-images/aatoujpkagawsbc1q9im.png",
+  "name": "Multimedia database system",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479a9a82bd3396fe3277557"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:28.038Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374177/ecourses/course-videos/llqvsrco6bcp6v5qwe1q.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c1109b5b89c93e354dcb7b"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c101a96ddb7dfa90ca1d44"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:24:59.069Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 11,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691485691/ecourses/course-images/mznoarw5qkrplo7qeveu.png",
+  "name": "Data Structures and Algorithms",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479a8db2bd3396fe327752f"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:29.627Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374256/ecourses/course-videos/jzo7vlfgzrtl3x0jgt6z.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c110eb5b89c93e354dcbc7"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c101a96ddb7dfa90ca1d44"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:26:19.040Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 12,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691485789/ecourses/course-images/gtnrba0yrbhhyexuoy47.png",
+  "name": "Application Algorithms",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479a8db2bd3396fe327752f"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:31.715Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374338/ecourses/course-videos/cqh0yci1fsy76e2wtz1l.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c111415b89c93e354dcc30"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c101a96ddb7dfa90ca1d44"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:27:45.766Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 13,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691485978/ecourses/course-images/gurcpo4fbwnbcphtepxz.jpg",
+  "name": "Programming Techniques",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479aa012bd3396fe327756b"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:33.868Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374430/ecourses/course-videos/fgnp9hprlpdagoot3vxu.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c111915b89c93e354dcc65"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c101a96ddb7dfa90ca1d44"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:29:05.859Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 14,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691486047/ecourses/course-images/wx6ogqjzwiucflxulfvi.png",
+  "name": "Constraint-based Local Search",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "6479a8db2bd3396fe327752f"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:25:36.108Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374509/ecourses/course-videos/oitvwpgkbhwmtchwfupm.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c111d75b89c93e354dcd9d"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c101d26ddb7dfa90ca1d86"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:30:15.252Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Lorem Ipsum</strong><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0);font-size:14px;\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p>",
+  "id": 15,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691486120/ecourses/course-images/la8pxdyntwojor1icd4f.png",
+  "name": "Artificial Intelligence",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "646c7dc1a6579d642ba6c113"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:27:26.671Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374578/ecourses/course-videos/vixx6b82c26xjunzi8gt.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c112195b89c93e354dcdd2"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c101d26ddb7dfa90ca1d86"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:31:21.588Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 16,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691486255/ecourses/course-images/mb8fqwdnb7hvz2ooko0t.png",
+  "name": "Knowledge-based System",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "646c7dc1a6579d642ba6c113"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:26:27.043Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374646/ecourses/course-videos/r7shvvxemcv06is9avkk.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c1128c5b89c93e354dce13"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c101d26ddb7dfa90ca1d86"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:33:16.089Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 17,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691486354/ecourses/course-images/fecnbg39j9ov82cz92c5.jpg",
+  "name": "Machine Learning",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "646c7dc1a6579d642ba6c113"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:26:28.654Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374756/ecourses/course-videos/zjm7adpbs23cufyjjghs.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "64c112ee5b89c93e354dce6c"
+  },
+  "__v": 0,
+  "category_id": {
+    "$oid": "64c101d26ddb7dfa90ca1d86"
+  },
+  "created_at": {
+    "$date": "2023-07-26T12:34:54.008Z"
+  },
+  "delete_flag": true,
+  "description": "<p><strong>Hanoi University of Science and Technology</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> (</span><strong>HUST</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">; </span><a href=\"https://en.wikipedia.org/wiki/Vietnamese_language\">Vietnamese</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">: </span><i>Đại học Bách khoa Hà Nội</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">, formerly known in English as </span><i>Hanoi University of Technology (HUT))</i><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> until 2010, founded 1956, is the first and largest </span><a href=\"https://en.wikipedia.org/wiki/Institute_of_technology\">technical university</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\"> in </span><a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34);font-size:14px;\">.</span></p>",
+  "id": 18,
+  "image": "https://res.cloudinary.com/dj41epk6v/image/upload/v1691486532/ecourses/course-images/m8ax02rcv04wnfulmhfu.jpg",
+  "name": "Deep Learning",
+  "status": 1,
+  "teacher_id": {
+    "$oid": "646c7dc1a6579d642ba6c113"
+  },
+  "test_questions": [
+    {
+      "correct": "2",
+      "answers": [
+        "Phòng Đào tạo",
+        "Viện chuyên nghành",
+        "Phòng Công tác Sinh viên",
+        "Trung tâm Ký túc xá"
+      ],
+      "question": "Sinh viên làm lại thẻ bảo hiểm y tế ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Yếu, Kém",
+        "Giỏi, Trung bình, Yếu, Kém",
+        "Xuất sắc, Khá, Trung bình, Kém"
+      ],
+      "question": "Điểm rèn luyện được xếp loại theo cách nào dưới đây"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "04 phòng đọc chuyên ngành 402, 411, 419, 526",
+        "Phòng Báo - Tạp chí, phòng Luận văn - luận án",
+        "02 phòng mượn về nhà: Phòng mượn sách tham khảo (P.102) và Phòng mượn giáo trình (P.111)",
+        "Tất cả các phương án trên"
+      ],
+      "question": "Thư viện có các phòng đọc, phòng mượn nào"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Không quá 5 học kỳ",
+        "Không quá 4 học kỳ",
+        "Không quá 3 học kỳ",
+        "Không quá 6 học kỳ"
+      ],
+      "question": "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4\r\nđến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch bao lâu"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Tối đa 10 tín chỉ và tối thiểu 8 tín chỉ",
+        "Tối đa 12 tín chỉ và tối thiểu 10 tín chỉ",
+        "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ"
+      ],
+      "question": "Sinh viên không đạt chuẩn ngoại ngữ theo quy định cho từng năm học được\r\nđăng ký tối đa và tối thiểu bao nhiêu tín chỉ cho một học kỳ chính"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Số 5 phố Tạ Quang Bửu",
+        "Số 5 phố Trần Đại Nghĩa",
+        "Số 5 phố Lê Thanh Nghị",
+        "Số 5 đường Đại Cồ Việt"
+      ],
+      "question": "Địa chỉ Trung tâm Y tế"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Viện chuyên ngành",
+        "Phòng Đào tạo",
+        "Phòng Công tác Sinh viên",
+        "Văn phòng Hội sinh viên"
+      ],
+      "question": "Sinh viên cần tư vấn về hồ sơ chế độ chính sách ở đâu"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Có ba mức: mức 1, mức 2, mức 3",
+        "Có bốn mức: mức 0, mức 1, mức 2, mức 3",
+        "Có hai mức: mức 1, mức 2",
+        "Có năm mức: mức 1, mức 2, mức 3, mức 4, mức 5"
+      ],
+      "question": "Có mấy mức cảnh báo học tập đối với sinh viên"
+    },
+    {
+      "correct": "3",
+      "answers": [
+        "Viết đơn xin mở lớp khác",
+        "Viết đơn xin thay mã lớp đã bị hủy bằng mà lớp khác có mở ngoài thời gian quy định.",
+        "Không cần viết đơn tự động, hệ thống sẽ tự đăng ký lớp khác",
+        "Chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ],
+      "question": "Trong trường hợp lớp bị hủy thì sinh viên phải làm gì"
+    },
+    {
+      "correct": "1",
+      "answers": [
+        "Học phần học trước",
+        "Học phần học trước; Học phần song hành; Học phần tiên quyết",
+        "Học phần song hành"
+      ],
+      "question": "Một môn học có thể có các điều kiện học phần nào"
+    }
+  ],
+  "updated_at": {
+    "$date": "2023-12-16T06:26:31.616Z"
+  },
+  "video": "https://res.cloudinary.com/dj41epk6v/video/upload/v1690374854/ecourses/course-videos/ktmpq1v5gqduqln4lct7.mp4",
+  "video_length": 126.3
+},
+{
+  "_id": {
+    "$oid": "657d50a39203a8d567454056"
+  },
+  "name": "Khóa học Mạng máy tính cơ bản",
+  "category_id": {
+    "$oid": "657d4f229203a8d56745401f"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1702711447/ecourses/course-images/ebo5yatqxa16jac8ennx.png",
+  "teacher_id": {
+    "$oid": "657d4ea19203a8d567453f3c"
+  },
+  "description": "<p>mô tả mô tả /.ádafsdfsdfsdfsdfsdf</p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1702711449/ecourses/course-videos/mpmyqrcpgmyvrllvrf8x.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "3",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án D",
+        "Đáp án E",
+        "Tất cả"
+      ],
+      "question": "Câu hỏi 1?"
+    },
+    {
+      "correct": "2",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C"
+      ],
+      "question": "Câu hỏi 2"
+    }
+  ],
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-12-16T07:24:19.686Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-19T02:30:17.016Z"
+  },
+  "id": 19,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d6bd59203a8d567454626"
+  },
+  "name": "Khóa học Mạng máy tính cơ bản 02",
+  "category_id": {
+    "$oid": "657d4f229203a8d56745401f"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1702718411/ecourses/course-images/lhqd42bqxdzper3ieki8.png",
+  "teacher_id": {
+    "$oid": "657d4ea19203a8d567453f3c"
+  },
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1702718413/ecourses/course-videos/ohyioheedu9okphvbskc.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đán án a",
+        "Đáp án B"
+      ],
+      "question": "Câu hỏi 1"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T09:20:21.222Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-19T08:19:52.899Z"
+  },
+  "id": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6580f737c4d4d0682c4b89db"
+  },
+  "name": "Phân tích dữ liệu 01",
+  "category_id": {
+    "$oid": "658d32164f96c14d63221f22"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1702950704/ecourses/course-images/pgtiehxsaf1xgkwn0zuy.jpg",
+  "teacher_id": {
+    "$oid": "657d4ea19203a8d567453f3c"
+  },
+  "description": "<p>Mô tả khóa học</p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1702950706/ecourses/course-videos/dnovornzojkpbmravjbo.mp4",
+  "video_length": 93.1,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 01?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 03?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 04?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-19T01:51:51.931Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T09:22:48.329Z"
+  },
+  "id": 21,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65810bbbe612f3cb796db932"
+  },
+  "name": "Học máy cơ bản 01",
+  "category_id": {
+    "$oid": "657d6aa79203a8d567454522"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1702955956/ecourses/course-images/ob5wobecnesa2hiqa7bl.jpg",
+  "teacher_id": {
+    "$oid": "657d4ea19203a8d567453f3c"
+  },
+  "description": "<p><span style=\"color:rgb(39,46,78);font-size:14px;\">Machine learning (ML) – Công nghệ học máy là tập hợp con của trí tuệ nhân tạo (AI) cung cấp cho máy móc hoặc chương trình máy tính học hỏi từ kinh nghiệm (những gì đã được học) của chính chúng hoặc dữ liệu có sẵn mà không cần lập trình cụ thể.</span></p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1702955957/ecourses/course-videos/hevgjhq5s5uejs3r2euz.mp4",
+  "video_length": 93.1,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 01?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-19T03:19:23.393Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T09:44:48.628Z"
+  },
+  "id": 22,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658151c1e612f3cb796dc652"
+  },
+  "name": "Khóa học Mạng máy tính cơ bản 03",
+  "category_id": {
+    "$oid": "657d4f229203a8d56745401f"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1702973882/ecourses/course-images/io6sbcermjg7yxgigxi8.jpg",
+  "teacher_id": {
+    "$oid": "657d4ea19203a8d567453f3c"
+  },
+  "description": "<p>Mô tả ………………………………………………………………………</p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1702973884/ecourses/course-videos/sgcecnnllcouny7ljfiu.mp4",
+  "video_length": 93.1,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 1?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D",
+        "Đáp án E"
+      ],
+      "question": "Câu hỏi 1=2?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-19T08:18:09.411Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-19T08:19:54.724Z"
+  },
+  "id": 23,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d342b4f96c14d63221fdc"
+  },
+  "name": "Cơ bản HTML, CSS, JS",
+  "category_id": {
+    "$oid": "658d314f4f96c14d63221ec4"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703752738/ecourses/course-images/msyfiayy3ns0x8mxlf80.jpg",
+  "teacher_id": {
+    "$oid": "658ced0909d806f567c8d16c"
+  },
+  "description": "<p><span style=\"color:rgb(51,51,51);font-size:14px;\">Đây là khóa học HTML CSS miễn phí nhưng lại rất đầy đủ và chi tiết, phù hợp cho dù bạn là người chưa từng biết tới HTML CSS.</span></p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1703752739/ecourses/course-videos/la7xhs6os6jceltvnme1.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 01?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 03?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 04?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D",
+        "Đáp án E"
+      ],
+      "question": "Câu hỏi 05?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T08:39:07.880Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T08:39:13.104Z"
+  },
+  "id": 24,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d35c74f96c14d63222023"
+  },
+  "name": "Framework ReactJS",
+  "category_id": {
+    "$oid": "658d314f4f96c14d63221ec4"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703753151/ecourses/course-images/k6kgn4prsuwrc9jll41l.jpg",
+  "teacher_id": {
+    "$oid": "658ced0909d806f567c8d16c"
+  },
+  "description": "<p><span style=\"color:rgba(0,0,0,0.8);font-size:14px;\">Khóa học ReactJS từ cơ bản tới nâng cao, kết quả của khóa học này là bạn có thể làm hầu hết các dự án thường gặp với ReactJS. Cuối khóa học này bạn sẽ sở hữu một dự án giống Tiktok.com, bạn có thể tự tin đi xin việc khi nắm chắc các kiến thức được chia sẻ trong khóa học này.</span></p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1703753153/ecourses/course-videos/mio3iryq9artdfjvgdnw.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 01?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 03?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 04?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 05?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T08:45:59.905Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T08:46:03.528Z"
+  },
+  "id": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d38034f96c14d632220d8"
+  },
+  "name": "Framework VueJS",
+  "category_id": {
+    "$oid": "658d314f4f96c14d63221ec4"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703753722/ecourses/course-images/iypxqienpjaifwpnbyog.png",
+  "teacher_id": {
+    "$oid": "658ced0909d806f567c8d16c"
+  },
+  "description": "<p>Vue.js, gọi tắt là Vue, là một framework linh động dùng để xây dựng giao diện người dùng. Khác với các framework nguyên khối, Vue được thiết kế từ đầu theo hướng cho phép và khuyến khích việc phát triển ứng dụng theo các bước…</p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1703753724/ecourses/course-videos/lijwaicbildfwf23mwpn.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 01?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T08:55:31.236Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T08:56:11.330Z"
+  },
+  "id": 26,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d39734f96c14d632221bc"
+  },
+  "name": "Framework Angular",
+  "category_id": {
+    "$oid": "658d314f4f96c14d63221ec4"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703754089/ecourses/course-images/pfabjavyxa1r1cr0adnq.jpg",
+  "teacher_id": {
+    "$oid": "658ced0909d806f567c8d16c"
+  },
+  "description": "<p><span style=\"color:hsl(0, 0%, 0%);\">Angular là gì? Angular là một JavaScript framework dùng để viết giao diện web (Front-end), được phát triển bởi Google. Hiện nay, Angular đang được sử dụng bởi rất nhiều các công ty lớn: Forbes, General Motors, Upwork… Với những lợi ích tuyệt vời mà Angular mang lại, bạn cần phải biết sử dụng Angular nếu muốn trở thành Front-end Developer giỏi và có thu nhập cao hơn mức </span><a href=\"https://itviec.com/blog/bao-cao-luong-it/?utm_source=blog&amp;utm_medium=internal-link&amp;utm_campaign=salary-report-2022&amp;utm_content=dec2022\"><span style=\"color:hsl(0, 0%, 0%);\">lương lập trình viên </span></a><span style=\"color:hsl(0, 0%, 0%);\">trung bình.</span></p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1703754091/ecourses/course-videos/bdrnvqipyq6gx1xt4lo9.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 01?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 03?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 04?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 05?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T09:01:39.049Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T09:01:58.553Z"
+  },
+  "id": 27,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d3a984f96c14d63222238"
+  },
+  "name": "Framework NodeJS",
+  "category_id": {
+    "$oid": "658d314f4f96c14d63221ec4"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703754384/ecourses/course-images/w54zmujciztpmvpjidsd.jpg",
+  "teacher_id": {
+    "$oid": "658ced0909d806f567c8d16c"
+  },
+  "description": "<p>Node.js là một hệ thống phần mềm được thiết kế để viết các ứng dụng internet có khả năng mở rộng, đặc biệt là máy chủ web. Chương trình được viết bằng JavaScript, sử dụng kỹ thuật điều khiển theo sự kiện, nhập/xuất không đồng bộ để tối thiểu tổng chi phí và tối đa khả năng mở rộng.</p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1703754386/ecourses/course-videos/qvgpduotqayeprs6xwub.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 01?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 03?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 04?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 05?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T09:06:32.964Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T09:06:56.366Z"
+  },
+  "id": 28,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d3cad4f96c14d632222dd"
+  },
+  "name": "Framework React Native",
+  "category_id": {
+    "$oid": "658d31904f96c14d63221ee0"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703754914/ecourses/course-images/oake3rcbzv3crviirhnf.jpg",
+  "teacher_id": {
+    "$oid": "658d23754f96c14d63221867"
+  },
+  "description": "<p>React Native là một framework mã nguồn mở được sáng tạo bởi Facebook. Nó được sử dụng để phát triển ứng dụng di động Android, iOS, Web và UWP bằng cách cho phép các nhà phát triển sử dụng React cùng với môi trường ứng dụng gốc.</p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1703754917/ecourses/course-videos/fby8zissfzm5il5tkix2.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 01?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 02?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 03?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 04?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 05?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T09:15:25.734Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T09:15:50.625Z"
+  },
+  "id": 29,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658d3e254f96c14d6322235f"
+  },
+  "name": "Lập trình nhúng cơ bản 01",
+  "category_id": {
+    "$oid": "658d31c64f96c14d63221efe"
+  },
+  "image": "https://res.cloudinary.com/doowlvlza/image/upload/v1703755290/ecourses/course-images/oitlvbqqc8d5pp5znroz.jpg",
+  "teacher_id": {
+    "$oid": "658d2b624f96c14d63221c93"
+  },
+  "description": "<p>Với doanh số đạt hàng tỷ đô-la Mỹ mỗi năm, lập trình nhúng đã và đang trở thành một ngành phát triển mạnh mẽ trong lĩnh vực công nghệ thông tin cùng với các ứng dụng rộng rãi trong công nghiệp và đời sống. Hoàn thành các khóa đào tạo về lập trình nhúng, các lập trình viên sẽ có cơ hội làm việc rất lớn tại các công ty, tập đoàn công nghệ trên khắp thế giới với mức thu nhập hàng ngàn đô. Đây là mảnh đất màu mỡ, mang lại mức thu nhập vô cùng cao cho người học lập trình.</p>",
+  "video": "https://res.cloudinary.com/doowlvlza/video/upload/v1703755292/ecourses/course-videos/w1lsnz1hwl0doir1torj.mp4",
+  "video_length": 93,
+  "test_questions": [
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 1?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 2?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 3?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 4?"
+    },
+    {
+      "correct": "0",
+      "answers": [
+        "Đáp án A",
+        "Đáp án B",
+        "Đáp án C",
+        "Đáp án D"
+      ],
+      "question": "Câu hỏi 5?"
+    }
+  ],
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-28T09:21:41.185Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-28T09:21:51.202Z"
+  },
+  "id": 30,
+  "__v": 0
+}]

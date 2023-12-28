@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "647474a0a78a32c96caa20a9"
+  },
+  "model": "users",
+  "field": "id",
+  "count": 81,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647474a0a78a32c96caa20ab"
+  },
+  "model": "permissions",
+  "field": "id",
+  "count": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c09d5bc1d501e0b5332cfd"
+  },
+  "model": "tokens",
+  "field": "id",
+  "count": 99,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c09d5bc1d501e0b5332cff"
+  },
+  "model": "categories",
+  "field": "id",
+  "count": 11,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c09d5bc1d501e0b5332d05"
+  },
+  "model": "comments",
+  "field": "id",
+  "count": 241,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c09d5bc1d501e0b5332d07"
+  },
+  "model": "classification_knowledges",
+  "field": "id",
+  "count": 277,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c09d5bc1d501e0b5332d01"
+  },
+  "model": "courses",
+  "field": "id",
+  "count": 30,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c09d5bc1d501e0b5332d03"
+  },
+  "model": "users_courses",
+  "field": "id",
+  "count": 252,
+  "__v": 0
+}]

@@ -67,7 +67,7 @@ export const MSG = {
 };
 
 export const DEFAULT_PAGE_SIZE = 10;
-export const PAGE_SIZE_OPTIONS = [10, 50, 100, 500, 1000];
+export const PAGE_SIZE_OPTIONS = [1, 5, 10, 50, 100, 500, 1000];
 export const MIN_NUMBER_ANSWER = 2;
 // There are alot of table in system. Example: Document, Form difinition, User, Tenant.
 export const TABLE_CODE = {
@@ -126,19 +126,23 @@ export const CONFIRM_EMAIL_STATUS_STRING = {
 export const TEACHER_SUBJECT = {
     INFORMATION_SYSTEM: {
         key: 'INFORMATION_SYSTEM',
-        value: 'Information system'
+        // value: 'Information system'
+        value: 'Hệ thống thông tin'
     },
     COMPUTER_SCIENCE: {
         key: 'COMPUTER_SCIENCE',
-        value: 'Computer science'
+        // value: 'Computer science'
+        value: 'Khoa học máy tính'
     },
     COMPUTER_ENGINEERING: {
         key: 'COMPUTER_ENGINEERING',
-        value: 'Computer engineering'
+        // value: 'Computer engineering'
+        value: 'Kỹ thuật máy tính'
     },
     SOFTWARE_TECHNOLOGY: {
         key: 'SOFTWARE_TECHNOLOGY',
-        value: 'Software technology'
+        // value: 'Software technology'
+        value: 'Công nghệ phần mềm'
     }
 }
 

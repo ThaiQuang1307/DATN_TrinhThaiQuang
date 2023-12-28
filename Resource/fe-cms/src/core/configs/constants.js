@@ -100,7 +100,7 @@ export const MSG = {
 };
 
 export const DEFAULT_PAGE_SIZE = 10;
-export const PAGE_SIZE_OPTIONS = [10, 50, 100, 500, 1000];
+export const PAGE_SIZE_OPTIONS = [1, 5, 10, 50, 100, 500, 1000];
 // There are alot of table in system. Example: Document, Form difinition, User, Tenant.
 export const TABLE_CODE = {
     DOCUMENT: 0

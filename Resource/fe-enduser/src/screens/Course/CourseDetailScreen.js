@@ -86,18 +86,26 @@ const CourseDetailScreen = observer((props) => {
     useEffect(() => {
         if (id && isNumeric(id) && course.id && watchVote && watchVote != course.vote) {
             if (!token) {
+                // openAlert(
+                //     `<div>
+                //         <div>Please login before voting.</div> 
+                //         <div>If you don't have an account <a href='${SYSTEM_PATH.SIGNUP}'>Sign up now</a></div>
+                //     </div>`
+                //     , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
                 openAlert(
                     `<div>
-                        <div>Please login before voting.</div> 
-                        <div>If you don't have an account <a href='${SYSTEM_PATH.SIGNUP}'>Sign up now</a></div>
+                        <div>Vui lòng đăng nhập trước khi bình chọn.</div>
+                        <div>Nếu bạn không có tài khoản <a href='${SYSTEM_PATH.SIGNUP}'>Đăng ký/a></div>
                     </div>`
-                    , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
+                    // , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
+                    , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Đăng nhập', true);
             } else if (!course?.isJoinCourse) {
                 // openAlert("You haven't taken this course yet");
                 openAlert('Bạn chưa tham gia khóa học này');
                 setValue('vote', null);
             } else {
-                openAlert('Are you sure submit a vote?', async () => {
+                // openAlert('Are you sure submit a vote?', async () => {
+                openAlert('Bạn có chắc chắn gửi đánh giá không?', async () => {
                     const res = await voteCourse(Number(id), {
                         vote: Number(watchVote)
                     });
@@ -114,33 +122,49 @@ const CourseDetailScreen = observer((props) => {
     // function
     const onJoinCourse = async () => {
         if (!token) {
+            // openAlert(
+            //     `<div>
+            //         <div>Please login to take this course.</div> 
+            //         <div>If you don't have an account <a href='${SYSTEM_PATH.SIGNUP}'>Sign up now</a></div>
+            //     </div>`
+            //     , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
             openAlert(
                 `<div>
-                    <div>Please login to take this course.</div> 
-                    <div>If you don't have an account <a href='${SYSTEM_PATH.SIGNUP}'>Sign up now</a></div>
+                    <div>Vui lòng đăng nhập để tham gia khóa học này.</div>
+                    <div>Nếu bạn không có tài khoản <a href='${SYSTEM_PATH.SIGNUP}'>Đăng ký</a></div>
                 </div>`
-                , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
+                // , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
+                , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Đăng nhập', true);
         } else {
-            openAlert('Are you sure take this course?', async () => {
+            // openAlert('Are you sure take this course?', async () => {
+            openAlert('Bạn có chắc chắn tham gia khóa học này không?', async () => {
                 const res = await joinCourse(Number(id));
                 if (res) {
                     // ReactNotifications('success', 'Join the course successfully');
                     ReactNotifications('success', 'Tham gia khóa học thành công');
                     getCourseDetail(id);
                 }
-            }, 'small', 'Join now')
+                // }, 'small', 'Join now')
+            }, 'small', 'Tham gia')
         }
     }
 
     const onSubmitComment = async (data) => {
         const { content } = data;
         if (!token) {
+            // openAlert(
+            //     `<div>
+            //         <div>Please login before comment.</div> 
+            //         <div>If you don't have an account <a href='${SYSTEM_PATH.SIGNUP}'>Sign up now</a></div>
+            //     </div>`
+            //     , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
             openAlert(
                 `<div>
-                    <div>Please login before comment.</div> 
-                    <div>If you don't have an account <a href='${SYSTEM_PATH.SIGNUP}'>Sign up now</a></div>
+                    <div>Vui lòng đăng nhập trước khi bình luận.</div>
+                    <div>Nếu bạn không có tài khoản <a href='${SYSTEM_PATH.SIGNUP}'>Đăng ký</a></div>
                 </div>`
-                , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
+                // , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Login', true);
+                , () => navigate(SYSTEM_PATH.LOGIN), 'small', 'Đăng nhập', true);
         } else if (!course?.isJoinCourse && !course?.isTeacher) {
             // openAlert("You haven't taken this course yet");
             openAlert('Bạn chưa tham gia khóa học này');
@@ -202,7 +226,8 @@ const CourseDetailScreen = observer((props) => {
                                         <div className='mb-4'>
                                             {
                                                 (course?.lastTimeViewed > 0 && !course?.isTeacher) &&
-                                                <small className='font-italic mg-b-5'>Watched: {hours > 0 && `${hours}h`} {minutes > 0 && `${minutes}m`} {seconds > 0 && hours < 1 && `${seconds}s`}</small>
+                                                // <small className='font-italic mg-b-5'>Watched: {hours > 0 && `${hours}h`} {minutes > 0 && `${minutes}m`} {seconds > 0 && hours < 1 && `${seconds}s`}</small>
+                                                <small className='font-italic mg-b-5'>Đã xem: {hours > 0 && `${hours}h`} {minutes > 0 && `${minutes}m`} {seconds > 0 && hours < 1 && `${seconds}s`}</small>
                                             }
                                             <VideoJS
                                                 options={videoJsOptions}
@@ -275,7 +300,8 @@ const CourseDetailScreen = observer((props) => {
                                         <div className='media mb-4' key={e.id}>
                                             <img src={e.user?.image || '/images/user-avatar-default.svg'} alt='Image' className='img-fluid rounded-circle mr-3 mt-1' style={{ width: '45px', height: '45px' }} />
                                             <div className='media-body'>
-                                                <h6>{userInfo?.id === e.user?.id ? 'You' : e.user?.name} <small><i>{moment(e.createdAt).format('DD MMM YYYY [at] hh:mmA')}</i></small></h6>
+                                                {/* <h6>{userInfo?.id === e.user?.id ? 'You' : e.user?.name} <small><i>{moment(e.createdAt).format('DD MMM YYYY [-] hh:mmA')}</i></small></h6> */}
+                                                <h6>{userInfo?.id === e.user?.id ? 'Bạn' : e.user?.name} <small><i>{moment(e.createdAt).format('DD MMM YYYY [-] hh:mmA')}</i></small></h6>
                                                 <p>{e.content}</p>
                                             </div>
                                         </div>

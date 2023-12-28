@@ -18,15 +18,15 @@ const PermissionScreen = observer((props) => {
     useTitle(t('permissionScreen.titleDocument'));
 
     // store
-    const { 
+    const {
         permissionStore: { permissionsList, permissions, getAllPermissions, getPermission, updatePermission, deletePermission, setAttrObservable },
         modalStore: { show, hide, openWarningModal }
     } = useStore();
 
     // state
     const keys = PERMISSIONS.map(e => e.key);
-    const { register, handleSubmit, formState: { isSubmitting }, setValue, watch, getValues, reset} = useForm();
-    const [ isCheckAll, setIsCheckAll ] = useState(false);
+    const { register, handleSubmit, formState: { isSubmitting }, setValue, watch, getValues, reset } = useForm();
+    const [isCheckAll, setIsCheckAll] = useState(false);
 
     const watchPermission = watch('permissions');
 
@@ -36,17 +36,17 @@ const PermissionScreen = observer((props) => {
     }, [])
 
     useEffect(() => {
-        if(permissionsList?.length > 0) {
+        if (permissionsList?.length > 0) {
             getPermission(permissions.id ?? permissionsList[0].id);
         }
     }, [permissionsList])
-    
+
     useEffect(() => {
         reset(toJS(permissions));
     }, [permissions.id])
 
     useEffect(() => {
-        if(Object.values(watchPermission ?? {}).filter(e => e === true).length === keys.length) {
+        if (Object.values(watchPermission ?? {}).filter(e => e === true).length === keys.length) {
             setIsCheckAll(true);
         } else {
             setIsCheckAll(false);
@@ -55,7 +55,7 @@ const PermissionScreen = observer((props) => {
 
     // function
     const onChangeSelectedAll = (e) => {
-        setValue('permissions', keys.reduce((a, v) => ({ ...a, [v]: e.target.checked}), {}));
+        setValue('permissions', keys.reduce((a, v) => ({ ...a, [v]: e.target.checked }), {}));
     }
 
     const onChangeSelectedPermission = (e, key) => {
@@ -68,43 +68,44 @@ const PermissionScreen = observer((props) => {
     const onUpdatePermission = async (data) => {
         const { id, ...payload } = data;
         const res = await updatePermission(id, payload);
-        if(res) {
+        if (res) {
             ReactNotifications('success', MSG['inform.success.update'][language]);
-            if(data.name !== permissions.name) {
+            if (data.name !== permissions.name) {
                 getAllPermissions();
             }
             getPermission(id);
         }
     }
 
-    const onShowSettingPermissionScreen = () =>{
+    const onShowSettingPermissionScreen = () => {
         show({
             id: 'setting-permission-modal',
             isOpen: true,
             header: t('permissionScreen.createPermission'),
             onCancel: hide,
             children: (
-                <SettingPermissionScreen/>
+                <SettingPermissionScreen />
             ),
             type: 'medium'
         })
     }
 
     const onShowConfirmDeletePermission = () => {
-        openWarningModal(language !== 'en' ? `Bạn có muốn xóa phân quyền [${permissions.name}] không?` 
-            : `Do you want to remove permission [${permissions.name}]?`, onDeletePermission)
+        openWarningModal(language !== 'en' ? `Bạn có muốn xóa phân quyền [${permissions.name}] không?`
+            // : `Do you want to remove permission [${permissions.name}]?`, onDeletePermission)
+            : `Bạn có muốn xóa phân quyền [${permissions.name}]?`, onDeletePermission)
     }
 
     const onDeletePermission = async () => {
         const res = await deletePermission(permissions.id);
-        if(res) {
+        if (res) {
             ReactNotifications('success', MSG['inform.success.delete'][language]);
             await setAttrObservable('permissions', {});
             getAllPermissions();
         }
     }
 
-    return(
+    return (
         <div className='permission-screen'>
             <div className='container-title'>{t('permissionScreen.titleScreen')}</div>
             <div className='container-content'>
@@ -118,20 +119,20 @@ const PermissionScreen = observer((props) => {
                                 ))
                             }
                         </select>
-                        <button type='button' className='btn btn-default-2 width-200' 
+                        <button type='button' className='btn btn-default-2 width-200'
                             onClick={onShowSettingPermissionScreen}>{t('permissionScreen.createPermission')}</button>
                     </div>
                     <div className='row'>
                         <div className='col-4 mx-auto mg-t-20 border-end pd-r-30'>
                             <label htmlFor={'name'} className='w-100 mg-t-10'>{t('permissionScreen.name')}</label>
-                            <input type={'text'} id={'name'} {...register('name')} className='w-100 mg-t-10'/>
+                            <input type={'text'} id={'name'} {...register('name')} className='w-100 mg-t-10' />
                             <label htmlFor={'description'} className='w-100 mg-t-10'>{t('permissionScreen.description')}</label>
-                            <textarea type={'text'} id={'description'} {...register('description')} className='w-100 mg-t-10 min-height-100'/>
+                            <textarea type={'text'} id={'description'} {...register('description')} className='w-100 mg-t-10 min-height-100' />
                         </div>
                         <div className='col-8 mx-auto mg-t-20 pd-lr-30'>
                             <div className='d-flex align-item-center justify-content-between mg-t-10'>
                                 <label htmlFor={'all'}>{t('common.all')}</label>
-                                <input type={'checkbox'} id={'all'} 
+                                <input type={'checkbox'} id={'all'}
                                     checked={isCheckAll}
                                     onChange={onChangeSelectedAll}
                                 />
@@ -140,10 +141,10 @@ const PermissionScreen = observer((props) => {
                                 PERMISSIONS.map(permission => (
                                     <div key={permission.key} className='d-flex align-item-center justify-content-between mg-t-10'>
                                         <label htmlFor={permission.key}>{permission.name[language]}</label>
-                                        <input type={'checkbox'} 
-                                            id={permission.key} 
+                                        <input type={'checkbox'}
+                                            id={permission.key}
                                             checked={getValues(`permissions.${permission.key}`) ?? false}
-                                            onChange={e => onChangeSelectedPermission(e, permission.key)}/>
+                                            onChange={e => onChangeSelectedPermission(e, permission.key)} />
                                     </div>
                                 ))
                             }
@@ -151,7 +152,7 @@ const PermissionScreen = observer((props) => {
                     </div>
                     <div className='text-center mg-t-30'>
                         <button type={'submit'} className='btn btn-default-2 mg-l-50 width-150' disabled={isSubmitting}>{t('common.update')}</button>
-                        <button type={'button'} className='btn btn-default-danger  mg-l-50 width-150' 
+                        <button type={'button'} className='btn btn-default-danger  mg-l-50 width-150'
                             onClick={onShowConfirmDeletePermission}>{t('common.delete')}</button>
                     </div>
                 </form>

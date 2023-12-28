@@ -19,7 +19,8 @@ const ForgotPasswordScreen = observer((props) => {
 
     // state
     const validateSchema = yup.object().shape({
-        email: yup.string().email(MSG['error.email_format']).required('Please enter your email address')
+        // email: yup.string().email(MSG['error.email_format']).required('Please enter your email address')
+        email: yup.string().email(MSG['error.email_format']).required('Vui lòng nhập địa chỉ email')
     })
 
     const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({ resolver: yupResolver(validateSchema), mode: 'onChange' });
@@ -32,8 +33,9 @@ const ForgotPasswordScreen = observer((props) => {
     // function
     const onForgetPassword = async (data) => {
         const res = await forgetPassword(data);
-        if(res) {
-            openAlert('We have sent you an email. Please check and follow the steps.', () => navigate(SYSTEM_PATH.LOGIN));
+        if (res) {
+            // openAlert('We have sent you an email. Please check and follow the steps.', () => navigate(SYSTEM_PATH.LOGIN));
+            openAlert('Chúng tôi đã gửi cho bạn một email. Vui lòng kiểm tra và làm theo các bước.', () => navigate(SYSTEM_PATH.LOGIN));
         }
     }
 
@@ -44,14 +46,16 @@ const ForgotPasswordScreen = observer((props) => {
                 <div className='container py-5'>
                     <div className='row justify-content-center'>
                         <div className='col-lg-8'>
-                            <h1 className='text-center'>Forgot Password</h1>
-                            <form onSubmit={handleSubmit(onForgetPassword)}  className='mt-4'>
+                            {/* <h1 className='text-center'>Forgot Password</h1> */}
+                            <h1 className='text-center'>Quên mật khẩu</h1>
+                            <form onSubmit={handleSubmit(onForgetPassword)} className='mt-4'>
                                 <div className='control-group'>
                                     <div className='input-group'>
-                                        <input {...register('email')} 
-                                            type='text' 
-                                            className={classNames('form-control rounded-0 rounded-left', errors?.email && 'border-danger')} 
-                                            placeholder='Please enter your email'/>
+                                        <input {...register('email')}
+                                            type='text'
+                                            className={classNames('form-control rounded-0 rounded-left', errors?.email && 'border-danger')}
+                                            // placeholder='Please enter your email' />
+                                            placeholder='Vui lòng nhập email của bạn' />
                                         <button type='submit' disabled={isSubmitting} className="btn btn-primary height-50 width-50 rounded-0 rounded-right">
                                             <i className='fas fa-paper-plane'></i>
                                         </button>
@@ -63,7 +67,8 @@ const ForgotPasswordScreen = observer((props) => {
                                 </div>
                             </form>
                             <div className='text-center mt-4'>
-                                <Link to={SYSTEM_PATH.HOME}>Back to login</Link>
+                                {/* <Link to={SYSTEM_PATH.HOME}>Back to login</Link> */}
+                                <Link to={SYSTEM_PATH.HOME}>Quay lại đăng nhập</Link>
                             </div>
                         </div>
                     </div>

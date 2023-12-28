@@ -1,0 +1,23 @@
+*Admin: 
+- admin tổng: admin00@yopmail.com/123456789
+
+*Giáo viên:
+- quangmath1307@gmail.com/123456789
+- giaovientest01@gmail.com/123456789
+- giaovientest02@gmail.com/123456789
+- giaovientest03@gmail.com/123456789
+
+*Giáo viên demo:
+- giaoviendemo01@gmail.com/
+
+*Học viên:
+- quangtt.haui@gmail.com/123456789
+
+*Học viên demo:
+
+
+*Mô tả thể loại:
+Lập trình web là một trong những ngành nghề được các công ty công nghệ săn đón nhiệt tình trong thời đại số ngày nay. Mặc dù làn sóng lay off tại các công ty công nghệ đang khốc liệt nhưng nhu cầu tuyển dụng IT lập trình web  chất lượng cao vẫn cực nóng sốt. Cụ thể lập trình web là gì, đâu là cơ hội nghề nghiệp dành cho ngành nghề này?
+
+*Mô tả giáo viên:
+TS. Giáo viên 01, chức danh Tiến sĩ Công nghệ thông tin, chuyên môn chuyên sâu trí tuệ nhân tạo ( ngành hẹp ứng dụng trí tuệ nhân tạo thực tiễn, tính toán mềm, học máy và phân tích dữ liệu lớn) giảng dạy và nghiên cứu tại Khoa công nghệ thông tin – trường Đại học Công nghiệp Hà Nội. Anh đã công bố 30 công trình nghiên cứu khoa học trong index ISI / SCOPUS trong tổng số các công trình khoa học của các tạp chí uy tín quốc tế, hội thảo quốc tế trong và ngoài nước. Hiện là chuyên gia tư vấn cho các dự án hợp tác doanh nghiệp trong lĩnh vực trí tuệ nhân tạo, học máy và phân tích dữ liệu lớn trong cuộc cách mạng công nghiệp 4.0. TS. Giáo viên 01 cũng tham gia, chủ trì, phản biện các phiên hội thảo quốc tế và tạp chí quốc tế uy tín như: IEEE transaction, IEEE access, Soft computing, Neural computing and Neural computing applications.

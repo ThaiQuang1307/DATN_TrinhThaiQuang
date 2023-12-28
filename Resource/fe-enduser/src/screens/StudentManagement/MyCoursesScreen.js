@@ -19,7 +19,7 @@ const MyCoursesScreen = observer(props => {
         const getData = () => {
             onPageChange(1);
         }
-    
+
         clean();
         getData();
         return () => {
@@ -34,12 +34,13 @@ const MyCoursesScreen = observer(props => {
             page
         })
     }
-    
-    if(userInfo?.roleId !== ROLE.ROLE_USER) return <NotFoundScreen/>
+
+    if (userInfo?.roleId !== ROLE.ROLE_USER) return <NotFoundScreen />
 
     return (
         <>
-            <TopContent namePage={'Profile'} breadcrumb={'My courses'}/>
+            {/* <TopContent namePage={'Profile'} breadcrumb={'My courses'}/> */}
+            <TopContent namePage={'Hồ sơ'} breadcrumb={'Khóa học của tôi'} />
             <div className='container-fluid py-5'>
                 <div className='container'>
                     <div className='row justify-content-center'>
@@ -47,11 +48,11 @@ const MyCoursesScreen = observer(props => {
                             {
                                 courseList?.length > 0 &&
                                 <>
-                                    { courseList.map(userCourse => (
+                                    {courseList.map(userCourse => (
                                         <div className='col-12'>
-                                            <JoinCourseCard key={userCourse.id} course={userCourse}/>
+                                            <JoinCourseCard key={userCourse.id} course={userCourse} />
                                         </div>
-                                    )) }
+                                    ))}
 
                                     <div className='col-12'>
                                         <FullPagination
