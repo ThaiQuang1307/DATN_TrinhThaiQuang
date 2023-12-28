@@ -1,0 +1,119 @@
+[{
+  "_id": {
+    "$oid": "64c1010d6ddb7dfa90ca1d12"
+  },
+  "name": "Software Technology",
+  "description": "",
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-07-26T11:18:37.253Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:10.393Z"
+  },
+  "id": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c1014c6ddb7dfa90ca1d2a"
+  },
+  "name": "Data and Information Management",
+  "description": "",
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-07-26T11:19:40.727Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:12.067Z"
+  },
+  "id": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c101a96ddb7dfa90ca1d44"
+  },
+  "name": "Algorithm and Optimization",
+  "description": "",
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-07-26T11:21:13.639Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:13.816Z"
+  },
+  "id": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c101d26ddb7dfa90ca1d86"
+  },
+  "name": "Artificial Intelligence and Machine Learning",
+  "description": "",
+  "status": 1,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-07-26T11:21:54.562Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:15.782Z"
+  },
+  "id": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "653c9f0d591fc885b117ad67"
+  },
+  "name": "Công nghệ thông tin",
+  "description": "Khoa CNTT Trường Đại học Công nghiệp Hà Nội",
+  "status": 0,
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-10-28T05:41:33.847Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:49:17.489Z"
+  },
+  "id": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d4f229203a8d56745401f"
+  },
+  "name": "Mạng máy tính",
+  "description": "Học về Mạng máy tính",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T07:17:54.100Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-19T02:09:06.831Z"
+  },
+  "id": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d6aa79203a8d567454522"
+  },
+  "name": "Học máy",
+  "description": "aaaaaaaaaaaaa",
+  "status": 1,
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T09:15:19.687Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-19T06:19:55.728Z"
+  },
+  "id": 7,
+  "__v": 0
+}]

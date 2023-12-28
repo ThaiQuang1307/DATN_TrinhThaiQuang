@@ -1,0 +1,110 @@
+.wrapper-container-with-side-bar {
+    width: calc(100% - 300px);
+
+    .wrapper-content-with-side-bar {
+        margin-top: 80px;
+    }
+}
+
+.wrapper-side-bar {
+    display: flex;
+    z-index: 1000;
+    // height: 100vh;
+    overflow: overlay;
+
+    .ps-sidebar-container,
+    .ps-submenu-content {
+
+        .ps-menu-root {
+
+            .ps-menu-button {
+                color: #FF6600 !important;
+
+                .ps-menu-icon {
+                    i {
+                        font-size: 18px;
+                        text-align: center;
+                        width: 30px;
+                    }
+                }
+
+                .ps-menu-label {
+                    color: #FF6600;
+                    font-weight: bold;
+                    opacity: 0.5;
+                }
+
+                .ps-submenu-expand-icon {
+                    span {
+                        width: 8px;
+                        height: 8px;
+                    }
+                }
+
+                &:hover {
+                    background-color: #F2F1F8 !important;
+
+                    .ps-menu-label {
+                        color: #FF6600;
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        width: 6px;
+                        height: 50px;
+                        background-color: #FF6600;
+                    }
+                }
+            }
+
+            .ps-menuitem-root {
+
+                &.ps-active {
+
+                    .ps-menu-button {
+                        background-color: #F2F1F8 !important;
+
+                        .ps-menu-label {
+                            color: #FF6600;
+                            opacity: 1;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            width: 6px;
+                            height: 50px;
+                            background-color: #FF6600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copy-right-content {
+    padding-right: 45px;
+}
+
+@media (max-width: 768px) {
+    .copy-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copy-right-content {
+        max-width: 400px !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .copy-right-content {
+        max-width: 320px !important;
+        padding-right: 0 !important;
+    }
+}

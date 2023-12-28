@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5501,
+    "prettier.singleAttributePerLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "html.completion.attributeDefaultValue": "singlequotes"
+}

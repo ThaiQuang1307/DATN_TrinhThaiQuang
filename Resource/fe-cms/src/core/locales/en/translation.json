@@ -1,0 +1,269 @@
+{
+    "language": {
+        "vi": "Tiếng Việt",
+        "en": "Tiếng Anh"
+    },
+    "common": {
+        "send": "Gửi",
+        "default": "Mặc định",
+        "all": "Tất cả",
+        "search": "Tìm kiếm",
+        "status": "Trạng thái",
+        "cancel": "Hủy bỏ",
+        "create": "Tạo mới",
+        "update": "Cập nhật",
+        "delete": "Xóa",
+        "selectImage": "Chọn ảnh",
+        "selectVideo": "Chọn video"
+    },
+    "table": {
+        "noData": "Không có dữ liệu",
+        "changeSort": "Thay đổi sắp xếp",
+        "display": "Hiển thị"
+    },
+    "columnTable": {
+        "createdAt": "Thời gian tạo",
+        "status": "Trạng thái",
+        "action": "Hành động"
+    },
+    "notFoundScreen": {
+        "textNotFound": "Trang này không tồn tại.",
+        "linkBackHome": "Quay lại trang chủ!"
+    },
+    "TBDScreen": {
+        "textTBD": "Trang này đang trong giai đoạn phát triển.",
+        "linkBackHome": "Quay lại trang chủ!"
+    },
+    "sideBar": {
+        "dashboard": "Thống kê",
+        "category": "Quản lý thể loại",
+        "course": "Quản lý khóa học",
+        "user": "Quản lý người dùng",
+        "admin": "Quản lý quản trị viên",
+        "teacher": "Quản lý giáo viên",
+        "student": "Quản lý học viên",
+        "algorithm": "Thuật toán",
+        "mainAlgorithm": "Thuật toán chính",
+        "otherAlgorithms": "Các thuật toán khác",
+        "data": "Chia dữ liệu",
+        "settingGeneral": "Cài đặt chung",
+        "permission": "Quản lý phân quyền",
+        "logout": "Đăng xuất"
+    },
+    "dropInfo": {
+        "userInfo": "Thông tin tài khoản",
+        "changePassword": "Đổi mật khẩu"
+    },
+    "loginScreen": {
+        "titleDocument": "Đăng nhập",
+        "titleScreen": "Hệ thống quản trị E-learning",
+        "labelEmail": "Email",
+        "labelPassword": "Mật khẩu",
+        "buttonLogin": "Đăng nhập",
+        "linkForgetPassword": "Quên mật khẩu",
+        "errorEmailRequired": "Vui lòng nhập địa chỉ email",
+        "errorPasswordRequired": "Vui lòng nhập mật khẩu"
+    },
+    "forgetPasswordScreen": {
+        "titleDocument": "Quên mật khẩu",
+        "titleScreen": "Quên mật khẩu",
+        "placeholderEmail": "Vui lòng nhập địa chỉ email của bạn",
+        "linkBackLogin": "Quay lại trang đăng nhập",
+        "errorEmailRequired": "Vui lòng nhập địa chỉ email của bạn",
+        "alertSuccess": "Chúng tôi đã gửi 1 email đến bạn. Hãy kiểm tra và làm theo các bước."
+    },
+    "dataScreen": {
+        "titleDocument": "Chia dữ liệu",
+        "titleScreen": "Chia dữ liệu",
+        "percentTrain": "Tỉ lệ dữ liệu train",
+        "percentValidate": "Tỉ lệ dữ liệu validate",
+        "percentTest": "Tỉ lệ dữ liệu test",
+        "createFakeData": "Tạo dữ liệu giả",
+        "numberOfInstances": "Số lượng bản ghi"
+    },
+    "mainAlgorithmScreen": {
+        "titleDocument": "Thuật toán chính",
+        "titleScreen": "Thuật toán chính",
+        "labelTrain": "Dữ liệu train",
+        "labelValidate": "Dữ liệu validate",
+        "labelTest": "Dữ liệu test",
+        "labelFile": "Tệp dữ liệu",
+        "labelFunction": "Hàm",
+        "labelMeasure": "Độ đo",
+        "labelResult": "Kết quả",
+        "labelNumberOfLoops": "Số vòng lặp",
+        "labelCorrect": "Số câu đúng",
+        "labelAccuracy": "Tỉ lệ chính xác",
+        "labelTime": "Thời gian",
+        "labelMix": "Hỗn hợp",
+        "labelIndexRating": "Các chỉ số đánh giá chất lượng",
+        "labelGenerality": "Tổng quát",
+        "labelParameters": "Tham số",
+        "labelChart": "Biểu đồ độ chính xác theo p",
+        "dataClassification": "Phân loại dữ liệu",
+        "parameterDescription": "Mô tả các tham số"
+    },
+    "otherAlgorithmsScreen": {
+        "titleDocument": "Các thuật toán khác",
+        "titleScreen": "Các thuật toán khác",
+        "labelTrain": "Dữ liệu train",
+        "labelValidate": "Dữ liệu validate",
+        "labelTest": "Dữ liệu test",
+        "labelFile": "Tệp dữ liệu",
+        "labelResult": "Kết quả",
+        "labelAttribute": "Thuộc tính",
+        "labelKernelFunction": "Hàm Kernel",
+        "labelCorrect": "Số câu đúng",
+        "labelAccuracy": "Tỉ lệ chính xác",
+        "labelImportantAttribute": "Độ quan trọng của các thuộc tính",
+        "labelTime": "Thời gian",
+        "labelMix": "Hỗn hợp"
+    },
+    "categoryScreen": {
+        "titleDocument": "Thể loại",
+        "titleScreen": "Quản lý thể loại",
+        "categoryName": "Tên thể loại",
+        "createCategory": "Tạo thể loại mới",
+        "confirmActiveCategory": "Xác nhận mở khóa thể loại?",
+        "confirmInactiveCategory": "Xác nhận khóa thể loại?",
+        "confirmDeleteCategory": "Xác nhận xóa thể loại?"
+    },
+    "settingCategoryScreen": {
+        "titleCreateCategory": "Tạo thể loại mới",
+        "titleUpdateCategory": "Cập nhật thông tin thể loại",
+        "categoryName": "Tên thể loại",
+        "description": "Mô tả",
+        "image": "Ảnh"
+    },
+    "courseScreen": {
+        "titleDocument": "Khóa học",
+        "titleScreen": "Quản lý khóa học",
+        "courseName": "Tên khóa học",
+        "createCourse": "Tạo khóa học mới",
+        "category": "Thể loại",
+        "teacher": "Giáo viên",
+        "confirmActiveCourse": "Xác nhận mở khóa khóa học?",
+        "confirmInactiveCourse": "Xác nhận khóa khóa học?",
+        "confirmDeleteCourse": "Xác nhận xóa khóa học?"
+    },
+    "settingCourseScreen": {
+        "titleCreateCourse": "Tạo khóa học mới",
+        "titleUpdateCourse": "Cập nhật thông tin khóa học",
+        "courseName": "Tên khóa học",
+        "category": "Thể loại",
+        "selectCategory": "Lựa chọn thể loại",
+        "image": "Ảnh",
+        "teacher": "Giáo viên",
+        "selectTeacher": "Lựa chọn giáo viên",
+        "video": "Video",
+        "videoLength": "Độ dài video",
+        "description": "Thông tin mô tả"
+    },
+    "adminScreen": {
+        "titleDocument": "Quản trị viên",
+        "titleScreen": "Quản lý quản trị viên",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "createAdmin": "Tạo mới quản trị viên",
+        "permission": "Phân quyền",
+        "confirmActiveAdmin": "Xác nhận mở khóa tài khoản?",
+        "confirmInactiveAdmin": "Xác nhận khóa tài khoản?",
+        "confirmDeleteAdmin": "Xác nhận xóa tài khoản?"
+    },
+    "settingAdminScreen": {
+        "titleCreateAdmin": "Tạo mới quản trị viên",
+        "titleUpdateAdmin": "Cập nhật thông tin quản trị viên",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "permission": "Phân quyền",
+        "selectPermission": "Lựa chọn phân quyền"
+    },
+    "teacherScreen": {
+        "titleDocument": "Giáo viên",
+        "titleScreen": "Quản lý giáo viên",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "createTeacher": "Tạo mới giáo viên",
+        "subject": "Bộ môn",
+        "confirmActiveTeacher": "Xác nhận mở khóa tài khoản?",
+        "confirmInactiveTeacher": "Xác nhận khóa tài khoản?",
+        "confirmDeleteTeacher": "Xác nhận xóa tài khoản?"
+    },
+    "settingTeacherScreen": {
+        "titleCreateTeacher": "Tạo mới giáo viên",
+        "titleUpdateTeacher": "Cập nhật thông tin giáo viên",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "subject": "Bộ môn",
+        "selectSubject": "Lựa chọn bộ môn",
+        "introduction": "Giới thiệu",
+        "image": "Ảnh",
+        "twitter": "Twitter",
+        "facebook": "Facebook",
+        "linkedin": "Linkedin"
+    },
+    "studentScreen": {
+        "titleDocument": "Học viên",
+        "titleScreen": "Quản lý học viên",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "createStudent": "Tạo mới học viên",
+        "gender": "Giới tính",
+        "birthday": "Ngày sinh",
+        "confirmActiveStudent": "Xác nhận mở khóa tài khoản?",
+        "confirmInactiveStudent": "Xác nhận khóa tài khoản?",
+        "confirmDeleteStudent": "Xác nhận xóa tài khoản?"
+    },
+    "settingStudentScreen": {
+        "titleCreateStudent": "Tạo mới học viên",
+        "titleUpdateStudent": "Cập nhật thông tin học viên",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "gender": "Giới tính",
+        "selectGender": "Lựa chọn giới tính",
+        "birthday": "Ngày sinh",
+        "phoneNumber": "Số điện thoại",
+        "country": "Quốc gia",
+        "selectCountry": "Lựa chọn quốc gia",
+        "address": "Địa chỉ"
+    },
+    "permissionScreen": {
+        "titleDocument": "Phân quyền",
+        "titleScreen": "Quản lý phân quyền",
+        "name": "Tên",
+        "description": "Mô tả",
+        "createPermission": "Tạo mới phân quyền"
+    },
+    "profileScreen": {
+        "titleDocument": "Thông tin tài khoản",
+        "titleScreen": "Thông tin tài khoản",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "role": "Vai trò",
+        "permission": "Phân quyền"
+    },
+    "changePasswordScreen": {
+        "titleDocument": "Thay đổi mật khẩu",
+        "titleScreen": "Thay đổi mật khẩu",
+        "currentPassword": "Mật khẩu hiện tại",
+        "newPassword": "Mật khẩu mới",
+        "confirmNewPassword": "Xác nhận mật khẩu mới",
+        "changePassword": "Đổi mật khẩu",
+        "valid1": "Nhập mật khẩu hiện tại",
+        "valid2": "Mật khẩu mới chứa ít nhất 8 kí tự chỉ chứa số, ký tự",
+        "valid3": "Xác nhận mật khẩu mới trùng khớp",
+        "alertChangeSuccess": "Đổi mật khẩu mật khẩu thành công. Vui lòng đăng nhập lại."
+    },
+    "setUpPasswordScreen": {
+        "titleDocument": "Thiết lập mật khẩu",
+        "titleScreen": "Thiết lập mật khẩu",
+        "privateCode": "Mã bảo mật",
+        "newPassword": "Mật khẩu mới",
+        "confirmNewPassword": "Xác nhận mật khẩu mới",
+        "setPassword": "Đặt mật khẩu",
+        "valid1": "Nhập mã bảo mật",
+        "valid2": "Mật khẩu mới chứa ít nhất 8 kí tự chỉ chứa số, ký tự",
+        "valid3": "Xác nhận mật khẩu mới trùng khớp",
+        "success": "Thiết lập mật khẩu thành công"
+    }
+}

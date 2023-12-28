@@ -1,0 +1,167 @@
+@use "../../variables" as css;
+
+.modal-header {
+    border-bottom: 1px solid css.$color-light-gray;
+    background-color: css.$color-4;
+    color: css.$color-white !important;
+
+    .modal-title {
+        margin: 0;
+        line-height: 1.42857143;
+    }
+
+    .btn-close {
+        text-shadow: 0 1px 0 #fff;
+        opacity: 1;
+
+        &:focus:active{
+            outline: none !important;
+            box-shadow: none;
+        }
+    }
+}
+
+.modal-content {
+    border: none;
+    min-width: 300px;
+    overflow: visible !important;
+
+    .cancel-button {
+        float: left;
+    }
+    h4 {
+        font-size: 17px;
+    }
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.ReactModal__Content {
+    padding: 0px !important;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: visible !important;
+}
+.fa-sort-desc,
+.fa-unsorted,
+.fa-sort-asc {
+    padding-left: 10px;
+    color: #3c8dbc;
+}
+.font-bold {
+    font-weight: bold;
+}
+.ReactModal__Overlay {
+    z-index: 7000;
+    background-color: rgba(128, 128, 128, 0.692) !important;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+button[disabled] {
+    cursor: not-allowed;
+}
+
+.btn {
+    min-width: 90px;
+}
+
+.modal-auto {
+    width: auto;
+}
+
+.modal-mini {
+    min-width: 200px;
+}
+
+.modal-small {
+    min-width: 300px;
+    width: 300px;
+}
+.modal-medium {
+    min-width: 600px;
+    .modal-body {
+        min-height: 320px;
+    }
+}
+
+.modal-message-detail {
+    min-width: 800px;
+    max-width: 1000px;
+    .modal-body {
+        min-height: 320px;
+    }
+}
+
+.modal-70w {
+    min-width: 70vw;
+    max-width: 70vw;
+    .modal-body {
+        min-height: 320px;
+    }
+}
+
+.modal-80w {
+    min-width: 80vw;
+    max-width: 80vw;
+    .modal-body {
+        min-height: 320px;
+    }
+}
+
+.modal-big {
+    min-width: 800px;
+    .modal-body {
+        min-height: 520px;
+    }
+}
+
+.modal-large {
+    min-width: 1000px;
+    .modal-body {
+        min-height: 520px;
+    }
+}
+
+.modal-confirm {
+    .modal-header {
+        border: none;
+    }
+}
+
+#modal-success {
+    .modal-header {
+        background-color: rgba(47, 235, 47, 0.685);
+        color: css.$color-white !important;
+    }
+}
+
+#modal-err {
+    .modal-header {
+        background-color: rgba(218, 35, 35, 0.767);
+        color: css.$color-white !important;
+    }
+}
+
+#modal-alert {
+    .modal-body {
+        min-width: 400px;
+        max-width: 500px;
+    }
+    .modal-footer {
+        border-top: none;
+    }
+}
+
+.max-height-modal {
+    max-height: calc(100vh - 150px);
+    overflow-y: overlay;
+}

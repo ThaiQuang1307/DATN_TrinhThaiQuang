@@ -1,0 +1,154 @@
+@use "../../variables" as css;
+
+.react-table {
+    .selection-header {
+        display: flex;
+        height: auto;
+        margin-bottom: 10px;
+        select {
+            border: 0.5px solid css.$color-light-gray;
+            height: 30.9px;
+            margin-top: 1.2px;
+            width: auto;
+            border-radius: unset;
+        }
+    }
+
+    .cansort_true_sorted_false:after {
+        display: none;
+    }
+
+    .disable {
+        background-color: #c0c0c0 !important;
+        cursor: not-allowed;
+    }
+    select {
+        padding: 5px;
+        margin-right: 10px;
+    }
+    .table {
+        .pagination {
+            margin: 0;
+        }
+        td {
+            vertical-align: middle;
+            max-width: 1px;
+        }
+    }
+
+    .pagination {
+        padding: 0;
+        margin: 0;
+
+        .page-item.active .page-link {
+            z-index: 3;
+            color: css.$color-white !important;
+            background-color: css.$color-4;
+            border-color: css.$color-4;
+        }
+
+        .page-link {
+            color: css.$color-4 !important;
+        }
+    }
+
+    .table-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .remove {
+        color: red;
+        text-align: center;
+        cursor: pointer;
+        display: block;
+    }
+
+    th, td {
+        text-align: center;
+    }
+
+    .table-no-data {
+        display: flex;
+        justify-content: center;
+    }
+
+    thead {
+        th {
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+        background-color: css.$color-white;
+        color: css.$color-4;
+        .cansort_true_sorted_false:after {
+            opacity: 0.2;
+            content: "\e150";
+            font-family: "Glyphicons Halflings";
+            padding: 7px;
+            font-size: 12px;
+        }
+    }
+
+    tbody {
+        tr {
+        background-color: css.$color-white !important;
+            td {
+                padding: 10px 5px;
+                word-break: break-all;
+            }
+        }
+    }
+    tfoot {
+        display: block;
+        width: 100%;
+        padding-right: 7px;
+        tr {
+            width: 100%;
+            display: inline-table;
+            td {
+                text-align: center;
+                word-break: break-all;
+                padding: 5px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.tb-tbody-scroll {
+    table {
+        thead {
+            background-color: css.$color-4;
+            color: css.$color-white;
+        }
+
+        thead, tbody {
+            width: 100%;
+            display: block;
+
+            tr {
+                display: inline-table;
+                width: 100%;
+            }
+        }
+
+        tbody {
+            overflow-y: overlay;
+        }
+    }
+}
+
+.header-table-color-5 {
+    table {
+        thead {
+            background-color: css.$color-5;
+            color: css.$color-white;
+        }
+    } 
+}
+
+.table-bordered > :not(caption) > * > * {
+    border-width: 0 0px !important;
+}
+

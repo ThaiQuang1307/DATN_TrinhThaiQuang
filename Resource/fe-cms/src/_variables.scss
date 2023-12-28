@@ -1,0 +1,49 @@
+// variable
+
+// font size
+$fs-default: 14px;
+$fs-heading-large: 32px;
+$fs-heading-normal: 24px;
+$fs-heading-small: 18px;
+$fs-input: 13px;
+$fs-error: 13px;
+
+// color
+$color-1: #FCB900;
+$color-2: #F5F5F5;
+$color-3: #DADDE2;
+$color-4: #001233;
+$color-5: #1A2C44;
+$color-6: #0077B6;
+$color-7: #cc66b0;
+$color-light-gray: #D5D5D5;
+$color-gray: #707070;
+$color-white: #FFFFFF;
+$color-white-opa: #ffffffab;
+$color-green:green;
+
+// height
+$height-button: 35px;
+$height-input: 35px;
+
+// border-radius
+$radius-default: 5px;
+$radius-div: 10px;
+
+// shadow
+$shadow-box-div: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+// custom bootstrap
+// dropdowns
+$dropdown-link-active-bg: $color-4;
+// accordion
+$accordion-button-color: $color-white;
+$accordion-button-bg: $color-4;
+$accordion-button-active-bg: $color-4;
+$accordion-button-active-color: $color-white;
+$accordion-button-focus-border-color: none;
+$accordion-button-focus-box-shadow: none;
+$accordion-icon-color: $color-white;
+$accordion-icon-active-color: $color-white;
+$accordion-border-width: 0px;
+$accordion-button-padding-y: 20px;

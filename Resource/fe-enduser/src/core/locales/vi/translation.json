@@ -1,0 +1,14 @@
+{
+    "language": {
+        "vi": "Tiếng Việt",
+        "en": "Tiếng Anh"
+    },
+    "common": {
+        "send": "Gửi",
+        "default": "Mặc định"
+    },
+    "notFoundScreen": {
+        "textNotFound": "Trang này không tồn tại.",
+        "linkBackHome": "Quay lại trang chủ!"
+    }
+}

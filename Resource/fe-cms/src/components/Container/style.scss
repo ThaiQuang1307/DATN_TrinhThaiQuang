@@ -1,0 +1,237 @@
+@use "../../variables" as css;
+
+:root {
+    --nav-width: 80px;
+    --z-fixed: 100;
+    --nav-width-show: 265px;
+}
+
+.wrapper {
+    min-width: 1150px;
+    
+    .wrapper-side-bar {
+        display: flex;
+        z-index: 1000;
+        height: 100vh;
+        overflow: overlay;
+        box-shadow: 2px 0 2px -2px #333;
+
+        .ps-sidebar-root {
+
+            .ps-menu-root-content {
+                height: calc(100vh - 115px);
+                overflow: overlay;
+            }
+
+            .ps-sidebar-container, .ps-submenu-content {
+                background-color: css.$color-white;
+
+                .ps-menu-root {
+
+                    .ps-menuitem-root {
+                        
+                        .ps-menu-button {
+                            color: css.$color-4 !important;
+
+                            .ps-menu-icon {
+                                i {
+                                    font-size: 18px;
+                                    text-align: center;
+                                    width: 30px;
+                                }
+                            }
+
+                            .ps-menu-label  {
+                                color: css.$color-4;
+                                font-size: 14px;
+                                font-weight: bold;
+                            }
+
+                            .ps-submenu-expand-icon {
+                                span {
+                                    width: 8px;
+                                    height: 8px;
+                                }
+                            }
+
+                            &:hover {
+                                background-color: css.$color-white;
+                                color: css.$color-1 !important;
+    
+                                .ps-menu-label {
+                                    color: css.$color-1;
+                                }
+                                
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    left: 0;
+                                    width: 6px;
+                                    height: 50px;
+                                    background-color: css.$color-1;
+                                }
+                            }
+                        }
+
+                        &.ps-active {
+
+                            .ps-menu-button {
+                                background-color: css.$color-white;
+                                color: css.$color-1 !important;
+    
+                                .ps-menu-label {
+                                    color: css.$color-1;
+                                }
+                                
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    left: 0;
+                                    width: 6px;
+                                    height: 50px;
+                                    background-color: css.$color-1;
+                                }
+                            }
+                        }
+
+                        &.ps-menu-logo {
+                            height: 65px;
+                            padding: 10px 0px;
+                            cursor: pointer;
+                            text-align: center;
+
+                            .ps-menu-button {
+                                pointer-events: none;
+
+                                .ps-menu-label {
+                                    color: css.$color-4 !important;
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .ps-submenu-content {
+                z-index: 1500;
+            }
+
+            &.ps-collapsed {
+                .ps-menu-button {
+                    margin-left: 0px !important;
+                }
+
+                .ps-menu-logo {
+                    .ps-menu-button {
+                        .ps-menu-label {
+                            font-size: 16px !important;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .wrapper-container {
+        position: relative;
+        width: calc(100% - var(--nav-width));
+        transition: 300ms;
+
+        &.nav-show {
+            width: calc(100% - var(--nav-width-show));
+
+            .wrapper-header {
+                width: calc(100% - var(--nav-width-show)) !important;
+            }
+        }
+
+        .wrapper-header {
+            position: fixed;
+            top: 0;
+            width: calc(100% - var(--nav-width));
+            height: 65px;
+            border-bottom: 4px solid css.$color-4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            z-index: 999;
+            transition: 300ms;
+            background-color: css.$color-white;
+        }
+
+        .wrapper-content {
+            position: relative;
+            top: 65px;
+            padding: 15px 30px 30px;
+            height: calc(100vh - 65px);
+            background-color: #F5F5F5;
+            overflow: overlay;
+
+            .container-title {
+                font-size: css.$fs-heading-large;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+
+            .container-search, .container-content, .container-content-form {
+                background-color: css.$color-white;
+                padding: 30px;
+                box-shadow: css.$shadow-box-div;
+                border-radius: css.$radius-div;
+            }
+            
+            .container-content-form {
+                // padding: 0px;
+
+                .container-form-input {
+                    padding: 30px;
+                    // max-height: calc(100vh - 300px);
+                    overflow: overlay;
+                }
+
+                .container-form-footer {
+                    text-align: center;
+                    border-top: 1px solid css.$color-light-gray;
+                    margin-top: 30px;
+                    padding-top: 30px;
+                }
+            }
+
+            .container-search {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .dropdownMenuInfo {
+        top: 10px !important; 
+
+        a {
+            display: flex;
+            align-items: center;
+            color: css.$color-4 !important;
+            background-color: css.$color-white !important;
+            padding: 10px 20px;
+
+            &:hover {
+                color: css.$color-1 !important;
+            }
+
+            i {
+                margin-right: 8px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.container-not-authentication {
+    .change-language {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}

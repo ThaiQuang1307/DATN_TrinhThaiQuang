@@ -1,0 +1,14 @@
+{
+    "language": {
+        "vi": "Vietnamese",
+        "en": "English"
+    },
+    "common": {
+        "send": "Send",
+        "default": "Default"
+    },
+    "notFoundScreen": {
+        "textNotFound": "This page does not exist.",
+        "linkBackHome": "Back to home page!"
+    }
+}

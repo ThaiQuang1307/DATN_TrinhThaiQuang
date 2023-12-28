@@ -1,0 +1,80 @@
+@use "../../variables" as css;
+
+// react-responsive-pagination
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.full-pagination {
+    .page-link {
+        padding: 0.75rem 1.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+    }
+    
+    .page-link:hover {
+        z-index: 2;
+        color: css.$color-white;
+        text-decoration: none;
+        background-color: #32389479;
+        cursor: pointer;
+    }
+    
+    .page-item:first-child .page-link {
+        border-top-left-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+    }
+    
+    .page-item.active .page-link {
+        z-index: 3;
+        color: css.$color-white;
+        background-image: linear-gradient(to right, css.$color-white);
+    }
+}
+
+.short-pagination {
+    align-items: center;
+    
+    .page-link {
+        padding: 5px 15px;
+    }
+
+    .page-btn {
+        border: none;
+        border-radius: 0.25rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        cursor: pointer;
+    }
+
+    .page-item:first-child .page-link {
+        margin-left: 0;
+    }
+}
+
+.page-item.disabled .page-link {
+    opacity: 0.5;
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.disabled {
+    cursor: not-allowed !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}

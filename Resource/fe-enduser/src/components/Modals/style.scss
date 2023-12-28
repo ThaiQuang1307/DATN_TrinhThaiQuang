@@ -1,0 +1,132 @@
+@use "../../variables" as css;
+
+.modal-header {
+    border-bottom: 1px solid css.$color-light-gray;
+    background-color: #dad8eb7c;
+
+    .modal-title {
+        margin: 0;
+        line-height: 1.42857143;
+    }
+
+    .close {
+        text-shadow: 0 1px 0 #fff;
+        opacity: 1;
+
+        &:focus:active{
+            outline: none !important;
+            box-shadow: none;
+        }
+    }
+}
+
+.modal-content {
+    border: none;
+    min-width: 300px;
+    overflow: visible !important;
+
+    .cancel-button {
+        float: left;
+    }
+    h4 {
+        font-size: 17px;
+    }
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.ReactModal__Content {
+    padding: 0px !important;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: visible !important;
+}
+.fa-sort-desc,
+.fa-unsorted,
+.fa-sort-asc {
+    padding-left: 10px;
+    color: #3c8dbc;
+}
+.font-bold {
+    font-weight: bold;
+}
+.ReactModal__Overlay {
+    z-index: 9000;
+    background-color: rgba(128, 128, 128, 0.692) !important;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+button[disabled] {
+    cursor: not-allowed;
+}
+
+.modal-auto {
+    width: auto;
+}
+
+.modal-mini {
+    width: 200px;
+}
+
+.modal-small {
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.modal-medium {
+    min-width: 600px;
+    max-width: 900px;
+    .modal-body {
+        min-height: 320px;
+    }
+}
+
+.modal-big {
+    min-width: 900px;
+    max-width: 1200px;
+    .modal-body {
+        min-height: 520px;
+    }
+}
+
+.modal-large {
+    min-width: 1000px;
+    .modal-body {
+        min-height: 520px;
+    }
+}
+
+.modal-confirm {
+    .modal-header {
+        border: none;
+    }
+}
+
+#modal-success {
+    .modal-header {
+        background-color: rgba(47, 235, 47, 0.685);
+        color: css.$color-white !important;
+    }
+}
+
+#modal-err {
+    .modal-header {
+        background-color: rgba(218, 35, 35, 0.767);
+        color: css.$color-white !important;
+    }
+}
+
+#modal-alert {
+    .modal-footer {
+        border-top: none;
+    }
+}

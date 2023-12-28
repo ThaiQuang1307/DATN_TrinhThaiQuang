@@ -1,0 +1,380 @@
+.wrapper-content {
+  min-height: calc(100vh - 164px - 477px);
+}
+
+.link-custom {
+  color: #6C6A74;
+
+  &:hover {
+    color: #FF6600;
+  }
+}
+
+.link-a-custom {
+  color: #FF6600;
+
+  &:hover {
+    color: #FF6600;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+// css field input required
+.field-required::after {
+  content: " *";
+  color: red;
+}
+
+// css icon as button
+.btn-icon-input {
+  width: fit-content;
+  border: none;
+  color:#6C6A74;
+  background-color: inherit;
+  font-size: 20px;
+  height: 30px;
+  float: right;
+  position: relative;
+  margin-right: 10px;
+  margin-top: -40px;
+  z-index: 2;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+  }
+}
+
+.btn-icon {
+  font-size: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn-primary-outline {
+  border-color: #FF6600;
+  color: #FF6600;
+
+  &:hover {
+    color: #FF6600;
+  }
+}
+
+// error validate
+.error-validate {
+  margin-top: 3px;
+  font-size: smaller;
+}
+
+// input form
+.form-control {
+  height: 48px;
+  padding: 10px 24px;
+}
+
+// scale
+.radio-custom {
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Chrome, Safari, Opera */
+  transform: scale(1.25);
+}
+
+// accent color
+.accent-color-red {
+  accent-color: red;
+}
+
+.accent-color-green {
+  accent-color: green;
+}
+
+// css class width, heigt, margin, padding
+@for $i from 0 through 9 {
+    $p1: $i * 100;
+    $p2: $i * 100 + 50;
+    $p3: $i * 10;
+    $p4: $i * 10 + 5;
+  
+    .tb-tbody-mh-#{$p1} {
+      tbody {
+        max-height: #{$p1}px;
+      }
+    }
+  
+    .tb-tbody-mh-#{$p2} {
+      tbody {
+        max-height: #{$p2}px;
+      }
+    }
+  
+    .height-#{$p1} {
+      height: #{$p1}px;
+    }
+  
+    .height-#{$p2} {
+      height: #{$p2}px;
+    }
+  
+    .height-#{$p3} {
+      height: #{$p3}px;
+    }
+  
+    .height-#{$p4} {
+      height: #{$p4}px;
+    }
+  
+    .width-#{$p1} {
+      width: #{$p1}px;
+    }
+  
+    .width-#{$p2} {
+      width: #{$p2}px;
+    }
+  
+    .min-width-#{$p1} {
+      min-width: #{$p1}px;
+    }
+  
+    .max-width-#{$p1} {
+      max-width: #{$p1}px;
+    }
+  
+    .min-width-#{$p2} {
+      min-width: #{$p2}px;
+    }
+  
+    .min-width-#{$p3} {
+      min-width: #{$p3}px;
+    }
+  
+    .min-width-#{$p4} {
+      min-width: #{$p4}px;
+    }
+  
+    .min-height-#{$p1} {
+      min-height: #{$p1}px;
+    }
+  
+    .min-height-#{$p2} {
+      min-height: #{$p2}px;
+    }
+  
+    .min-height-#{$p3} {
+      min-height: #{$p3}px;
+    }
+  
+    .min-height-#{$p4} {
+      min-height: #{$p4}px;
+    }
+  
+    .mg-t-#{$p3} {
+      margin-top: #{$p3}px !important;
+    }
+  
+    .mg-b-#{$p3} {
+      margin-bottom: #{$p3}px !important;
+    }
+  
+    .mg-l-#{$p3} {
+      margin-left: #{$p3}px !important;
+    }
+  
+    .mg-r-#{$p3} {
+      margin-right: #{$p3}px !important;
+    }
+  
+    .mg-tb-#{$p3} {
+      margin-top: #{$p3}px !important;
+      margin-bottom: #{$p3}px !important;
+    }
+  
+    .mg-lr-#{$p3} {
+      margin-left: #{$p3}px !important;
+      margin-right: #{$p3}px !important;
+    }
+  
+    .pd-#{$p3} {
+      padding: #{$p3}px !important;
+    }
+  
+    .pd-t-#{$p3} {
+      padding-top: #{$p3}px !important;
+    }
+  
+    .pd-b-#{$p3} {
+      padding-bottom: #{$p3}px !important;
+    }
+  
+    .pd-l-#{$p3} {
+      padding-left: #{$p3}px !important;
+    }
+  
+    .pd-r-#{$p3} {
+      padding-right: #{$p3}px !important;
+    }
+  
+    .pd-tb-#{$p3} {
+      padding-top: #{$p3}px !important;
+      padding-bottom: #{$p3}px !important;
+    }
+  
+    .pd-lr-#{$p3} {
+      padding-left: #{$p3}px !important;
+      padding-right: #{$p3}px !important;
+    }
+  
+    .mg-#{$p3} {
+      margin: #{$p3}px !important;
+    }
+  
+    .mg-t-#{$p4} {
+      margin-top: #{$p4}px !important;
+    }
+  
+    .mg-b-#{$p4} {
+      margin-bottom: #{$p4}px !important;
+    }
+  
+    .mg-l-#{$p4} {
+      margin-left: #{$p4}px !important;
+    }
+  
+    .mg-r-#{$p4} {
+      margin-right: #{$p4}px !important;
+    }
+  
+    .mg-tb-#{$p4} {
+      margin-top: #{$p4}px !important;
+      margin-bottom: #{$p4}px !important;
+    }
+  
+    .mg-lr-#{$p4} {
+      margin-left: #{$p4}px !important;
+      margin-right: #{$p4}px !important;
+    }
+  
+    .pd-t-#{$p4} {
+      padding-top: #{$p4}px !important;
+    }
+  
+    .pd-b-#{$p4} {
+      padding-bottom: #{$p4}px !important;
+    }
+  
+    .pd-l-#{$p4} {
+      padding-left: #{$p4}px !important;
+    }
+  
+    .pd-r-#{$p4} {
+      padding-right: #{$p4}px !important;
+    }
+  
+    .pd-tb-#{$p4} {
+      padding-top: #{$p4}px !important;
+      padding-bottom: #{$p4}px !important;
+    }
+  
+    .pd-lr-#{$p4} {
+      padding-left: #{$p4}px !important;
+      padding-right: #{$p4}px !important;
+    }
+
+    .flex-gap-#{$p3} {
+      gap: #{$p3}px !important;
+    }
+  
+    .flex-gap-#{$p4} {
+      gap: #{$p4}px !important;
+    }
+  
+    .font-size-#{$p3} {
+      font-size: #{$p3}px !important;
+    }
+  
+    .font-size-#{$p4} {
+      font-size: #{$p4}px !important;
+    }
+}
+
+// css class col
+
+.extra-col {
+  position: relative;
+  width: 100%;
+}
+
+.col-0-5 {
+  @extend .extra-col;
+  flex: 0 0 4.16666667%;
+  max-width: 4.16666667%;
+}
+
+.col-1-5 {
+  @extend .extra-col;
+  flex: 0 0 12.5%;
+  max-width: 12.5%;
+}
+
+.col-2-5 {
+  @extend .extra-col;
+  flex: 0 0 20.833333325%;
+  max-width: 20.833333325%;
+}
+
+.col-3-5 {
+  @extend .extra-col;
+  flex: 0 0 29.166666655%;
+  max-width: 29.166666655%;
+}
+
+.col-4-5 {
+  @extend .extra-col;
+  flex: 0 0 37.499999985%;
+  max-width: 37.499999985%;
+}
+
+.col-5-5 {
+  @extend .extra-col;
+  flex: 0 0 45.833333315%;
+  max-width: 45.833333315%;
+}
+
+.col-6-5 {
+  @extend .extra-col;
+  flex: 0 0 54.166666645%;
+  max-width: 54.166666645%;
+}
+
+.col-7-5 {
+  @extend .extra-col;
+  flex: 0 0 62.499999975%;
+  max-width: 62.499999975%;
+}
+
+.col-8-5 {
+  @extend .extra-col;
+  flex: 0 0 70.833333305%;
+  max-width: 70.833333305%;
+}
+
+.col-9-5 {
+  @extend .extra-col;
+  flex: 0 0 79.166666635%;
+  max-width: 79.166666635%;
+}
+
+.col-10-5 {
+  @extend .extra-col;
+  flex: 0 0 87.499999965%;
+  max-width: 87.499999965%;
+}
+
+.col-11-5 {
+  @extend .extra-col;
+  flex: 0 0 95.8333333%;
+  max-width: 95.8333333%;
+}

@@ -1,0 +1,43 @@
+@use '../../variables' as css;
+
+.calendar-custom {
+
+    .container-input {
+        * {
+            cursor: pointer;
+        }
+    }
+
+    .container-calender {
+        position: relative;
+        padding-left: 0px !important;
+        z-index: 1000;
+
+        .calendar, .calendar-picker {
+            border: 1px solid css.$color-light-gray;
+            box-shadow: css.$shadow-box-div;
+            border-radius: css.$radius-default;
+            position: absolute;
+            width: fit-content;
+            min-width: 300px;
+            max-width: 500px;
+        }
+
+        .calendar-picker {
+            min-width: 600px;
+            max-width: max-content;
+
+            .rdrDefinedRangesWrapper {
+                display: none;
+            }
+        }
+    }
+
+    .btn-clear-input {
+        margin-right: 35px;
+        margin-top: -33px;
+        width: 25px;
+        text-align: center;
+    }
+}
+

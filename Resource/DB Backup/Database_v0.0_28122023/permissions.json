@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "641928b9111ea540d07363b3"
+  },
+  "name": "Admin",
+  "description": "Full permissions",
+  "permissions": {
+    "dashboard": true,
+    "category": true,
+    "course": true,
+    "admin": true,
+    "teacher": true,
+    "student": true,
+    "algorithm": true,
+    "permission": true
+  },
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-03-21T03:47:05.480Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:33:01.495Z"
+  },
+  "id": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646d803adbb5fe8ee1bc045e"
+  },
+  "name": "Only Algorithm",
+  "description": "Have only algorithm permission",
+  "permissions": {
+    "dashboard": false,
+    "category": false,
+    "course": false,
+    "admin": false,
+    "teacher": false,
+    "user": false,
+    "algorithm": true,
+    "permission": false
+  },
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-05-24T03:10:50.765Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-24T03:11:03.293Z"
+  },
+  "id": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d44879203a8d5674538b6"
+  },
+  "name": "Khoa CNTT ",
+  "description": "Quản lý Giáo viên, sinh viên, khóa học online",
+  "permissions": {
+    "dashboard": false,
+    "category": true,
+    "course": true,
+    "admin": false,
+    "teacher": true,
+    "student": true,
+    "algorithm": false,
+    "permission": false
+  },
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-12-16T06:32:39.563Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T07:12:02.719Z"
+  },
+  "id": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d44b79203a8d5674538d9"
+  },
+  "name": "sdfsdfsdfsdf",
+  "description": "sdfsdf",
+  "permissions": {
+    "dashboard": false,
+    "category": false,
+    "course": false,
+    "admin": false,
+    "teacher": false,
+    "student": false,
+    "algorithm": false,
+    "permission": false
+  },
+  "delete_flag": true,
+  "created_at": {
+    "$date": "2023-12-16T06:33:27.724Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T06:33:53.842Z"
+  },
+  "id": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657d46ac9203a8d567453a3d"
+  },
+  "name": "Admin manager CNTT-HAUI",
+  "description": "Tài khoản quản lý các học tập online khoa CNTT đại học CNTT HN",
+  "permissions": {
+    "dashboard": true,
+    "category": true,
+    "course": true,
+    "admin": false,
+    "teacher": true,
+    "student": true,
+    "algorithm": false,
+    "permission": false
+  },
+  "delete_flag": false,
+  "created_at": {
+    "$date": "2023-12-16T06:41:48.393Z"
+  },
+  "updated_at": {
+    "$date": "2023-12-16T08:22:29.160Z"
+  },
+  "id": 5,
+  "__v": 0
+}]

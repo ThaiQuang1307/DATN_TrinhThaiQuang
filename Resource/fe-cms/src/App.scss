@@ -1,0 +1,741 @@
+@use './variables' as css;
+
+// 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+html,
+body {
+  .daterangepicker{
+    z-index: 555;
+}
+}
+
+body,
+#root,
+.wrapper {
+  min-height: 100vh !important;
+  bottom: 0;
+}
+
+// css link
+a {
+  color: css.$color-6 !important;
+  text-decoration: none !important;
+}
+
+.text-link {
+  color: css.$color-6;
+}
+
+// css input button
+input:not([type='checkbox']):not([type='radio']), textarea, select {
+  // width: 100%;
+  border: 0.5px solid css.$color-light-gray;
+  border-radius: 5px;
+  font-size: css.$fs-input;
+  padding: 5px;
+  outline: none;
+
+  &:focus {
+    border-color: css.$color-4;
+  }
+}
+
+input:not([type='checkbox']):not([type='radio']), select {
+  height: css.$height-input;
+}
+
+button {
+  height: css.$height-button;
+  border-radius: css.$radius-default;
+}
+
+// border-radius
+.radius-default {
+  border-radius: css.$radius-default !important;
+}
+
+.radius-div {
+  border-radius: css.$radius-div !important;
+}
+
+// shadow
+.shadow-box {
+  box-shadow: css.$shadow-box-div;
+}
+
+// css icon as button
+.btn-icon-input {
+  width: fit-content;
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  height: 30px;
+  float: right;
+  position: relative;
+  margin-right: 10px;
+  margin-top: -34px;
+  z-index: 2;
+  cursor: pointer;
+}
+// css icon
+
+.icon-color-green {
+  color: green !important;
+}
+
+.icon-color-red {
+  color: red !important;
+}
+
+// css button icon
+.btn-icon {
+  width: 25px;
+  height: 25px;
+  font-size: small;
+  border: none;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+
+.btn-icon-orange {
+  color: orange !important;
+  border: 1px solid orange !important;
+}
+
+.btn-icon-red {
+  color: red !important;
+  border: 1px solid red !important;
+}
+.btn-icon-green {
+  color: green !important;
+  border: 1px solid green !important;
+}
+
+// css field input required
+.field-required::after {
+  content: " *";
+  color: red;
+}
+
+// css button
+.btn-default-1 {
+  background-color: inherit;
+  color: css.$color-4 !important;
+  border: 1px solid css.$color-4 !important;
+}
+
+.btn-default-2 {
+  background-color: css.$color-1 !important;
+  color: css.$color-white !important;
+  border: none;
+}
+
+.btn-background-green {
+  background-color: css.$color-green !important;
+  color: css.$color-white !important;
+  border: none;
+}
+
+.btn-background-primary {
+  background-color: css.$color-6 !important;
+  color: css.$color-white !important;
+  border: none;
+}
+
+.btn-background-pink {
+  background-color: css.$color-7 !important;
+}
+
+.btn-default-3 {
+  background-color: css.$color-5 !important;
+  color: css.$color-white !important;
+  border: none;
+}
+
+.btn-default-success {
+  background-color: inherit;
+  border: 1px solid green !important;
+}
+
+.btn-default-danger {
+  background-color: red !important;
+  color: css.$color-white !important;
+  border: none;
+}
+.btn-default-4 {
+  color: css.$color-white !important;
+  border-radius: 12px;
+}
+
+// css hover
+.hover-underline:hover {
+  text-decoration: underline !important;
+}
+
+// css class font
+.fs-default {
+  font-size: css.$fs-default;
+}
+
+.fs-heading-large {
+  font-size: css.$fs-heading-large;
+}
+
+.fs-heading-normal {
+  font-size: css.$fs-heading-normal;
+}
+
+.fs-heading-small {
+  font-size: css.$fs-heading-small;
+}
+
+.fs-error {
+  font-size: css.$fs-error;
+}
+
+// css form
+form {
+  label:hover {
+    cursor: pointer;
+  }
+}
+
+// css tabs
+
+.custom-tabs {
+  --bs-nav-tabs-border-color: #f5f5f5 !important;
+  .nav-item {
+    margin-right: 4px;
+    .nav-link {
+      color: #333333;
+      font-size:css.$fs-default;
+      background-color: #d7d7d7;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      min-width: 167px;
+      min-height: 50px;
+      border: 0px;
+    }
+    .active {
+      background-color: #f5f5f5 !important;
+    }
+  }
+}
+
+// css text 
+
+.text-gray-size14 {
+  color: #AAAAAA;
+}
+
+.text-color-green {
+  color: green;
+}
+.text-color-danger {
+  color: red;
+}
+
+// scale
+.scale-radio {
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Chrome, Safari, Opera */
+  transform: scale(1.25);
+}
+
+// css class col
+
+.extra-col {
+  position: relative;
+  width: 100%;
+}
+
+.col-0-5 {
+  @extend .extra-col;
+  flex: 0 0 4.16666667%;
+  max-width: 4.16666667%;
+}
+
+.col-1-5 {
+  @extend .extra-col;
+  flex: 0 0 12.5%;
+  max-width: 12.5%;
+}
+
+.col-2-5 {
+  @extend .extra-col;
+  flex: 0 0 20.833333325%;
+  max-width: 20.833333325%;
+}
+
+.col-3-5 {
+  @extend .extra-col;
+  flex: 0 0 29.166666655%;
+  max-width: 29.166666655%;
+}
+
+.col-4-5 {
+  @extend .extra-col;
+  flex: 0 0 37.499999985%;
+  max-width: 37.499999985%;
+}
+
+.col-5-5 {
+  @extend .extra-col;
+  flex: 0 0 45.833333315%;
+  max-width: 45.833333315%;
+}
+
+.col-6-5 {
+  @extend .extra-col;
+  flex: 0 0 54.166666645%;
+  max-width: 54.166666645%;
+}
+
+.col-7-5 {
+  @extend .extra-col;
+  flex: 0 0 62.499999975%;
+  max-width: 62.499999975%;
+}
+
+.col-8-5 {
+  @extend .extra-col;
+  flex: 0 0 70.833333305%;
+  max-width: 70.833333305%;
+}
+
+.col-9-5 {
+  @extend .extra-col;
+  flex: 0 0 79.166666635%;
+  max-width: 79.166666635%;
+}
+
+.col-10-5 {
+  @extend .extra-col;
+  flex: 0 0 87.499999965%;
+  max-width: 87.499999965%;
+}
+
+.col-11-5 {
+  @extend .extra-col;
+  flex: 0 0 95.8333333%;
+  max-width: 95.8333333%;
+}
+
+
+// css class width, heigt, margin, padding
+@for $i from 0 through 9 {
+  $p1: $i * 100;
+  $p2: $i * 100 + 50;
+  $p3: $i * 10;
+  $p4: $i * 10 + 5;
+
+  .tb-tbody-mh-#{$p1} {
+    tbody {
+      max-height: #{$p1}px !important;
+    }
+  }
+
+  .tb-tbody-mh-#{$p2} {
+    tbody {
+      max-height: #{$p2}px !important;
+    }
+  }
+
+  .height-#{$p1} {
+    height: #{$p1}px !important;
+  }
+
+  .height-#{$p2} {
+    height: #{$p2}px !important;
+  }
+
+  .height-#{$p3} {
+    height: #{$p3}px !important;
+  }
+
+  .height-#{$p4} {
+    height: #{$p4}px !important;
+  }
+
+  .width-#{$p1} {
+    width: #{$p1}px !important;
+  }
+
+  .width-#{$p2} {
+    width: #{$p2}px !important;
+  }
+
+  .min-width-#{$p1} {
+    min-width: #{$p1}px !important;
+  }
+
+  .max-width-#{$p1} {
+    min-width: #{$p1}px !important;
+  }
+
+  .min-width-#{$p2} {
+    min-width: #{$p2}px !important;
+  }
+
+  .min-width-#{$p3} {
+    min-width: #{$p3}px !important;
+  }
+
+  .min-width-#{$p4} {
+    min-width: #{$p4}px !important;
+  }
+
+  .min-height-#{$p1} {
+    min-height: #{$p1}px !important;
+  }
+
+  .min-height-#{$p2} {
+    min-height: #{$p2}px !important;
+  }
+
+  .min-height-#{$p3} {
+    min-height: #{$p3}px !important;
+  }
+
+  .min-height-#{$p4} {
+    min-height: #{$p4}px !important;
+  }
+
+  .mg-t-#{$p3} {
+    margin-top: #{$p3}px !important;
+  }
+
+  .mg-b-#{$p3} {
+    margin-bottom: #{$p3}px !important;
+  }
+
+  .mg-l-#{$p3} {
+    margin-left: #{$p3}px !important;
+  }
+
+  .mg-r-#{$p3} {
+    margin-right: #{$p3}px !important;
+  }
+
+  .mg-tb-#{$p3} {
+    margin-top: #{$p3}px !important;
+    margin-bottom: #{$p3}px !important;
+  }
+
+  .mg-lr-#{$p3} {
+    margin-left: #{$p3}px !important;
+    margin-right: #{$p3}px !important;
+  }
+
+  .pd-#{$p3} {
+    padding: #{$p3}px !important;
+  }
+
+  .pd-t-#{$p3} {
+    padding-top: #{$p3}px !important;
+  }
+
+  .pd-b-#{$p3} {
+    padding-bottom: #{$p3}px !important;
+  }
+
+  .pd-l-#{$p3} {
+    padding-left: #{$p3}px !important;
+  }
+
+  .pd-r-#{$p3} {
+    padding-right: #{$p3}px !important;
+  }
+
+  .pd-tb-#{$p3} {
+    padding-top: #{$p3}px !important;
+    padding-bottom: #{$p3}px !important;
+  }
+
+  .pd-lr-#{$p3} {
+    padding-left: #{$p3}px !important;
+    padding-right: #{$p3}px !important;
+  }
+
+  .mg-#{$p3} {
+    margin: #{$p3}px !important;
+  }
+
+  .mg-t-#{$p4} {
+    margin-top: #{$p4}px !important;
+  }
+
+  .mg-b-#{$p4} {
+    margin-bottom: #{$p4}px !important;
+  }
+
+  .mg-l-#{$p4} {
+    margin-left: #{$p4}px !important;
+  }
+
+  .mg-r-#{$p4} {
+    margin-right: #{$p4}px !important;
+  }
+
+  .mg-tb-#{$p4} {
+    margin-top: #{$p4}px !important;
+    margin-bottom: #{$p4}px !important;
+  }
+
+  .mg-lr-#{$p4} {
+    margin-left: #{$p4}px !important;
+    margin-right: #{$p4}px !important;
+  }
+
+  .pd-t-#{$p4} {
+    padding-top: #{$p4}px !important;
+  }
+
+  .pd-b-#{$p4} {
+    padding-bottom: #{$p4}px !important;
+  }
+
+  .pd-l-#{$p4} {
+    padding-left: #{$p4}px !important;
+  }
+
+  .pd-r-#{$p4} {
+    padding-right: #{$p4}px !important;
+  }
+
+  .pd-tb-#{$p4} {
+    padding-top: #{$p4}px !important;
+    padding-bottom: #{$p4}px !important;
+  }
+
+  .pd-lr-#{$p4} {
+    padding-left: #{$p4}px !important;
+    padding-right: #{$p4}px !important;
+  }
+
+  .flex-gap-#{$p3} {
+    gap: #{$p3}px !important;
+  }
+
+  .flex-gap-#{$p4} {
+    gap: #{$p4}px !important;
+  }
+
+  .font-size-#{$p3} {
+    font-size: #{$p3}px !important;
+  }
+
+  .font-size-#{$p4} {
+    font-size: #{$p4}px !important;
+  }
+}
+
+// css scroll
+
+/* width */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: css.$color-white;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: css.$color-5; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: css.$color-4; 
+}
+
+// css student page
+
+.purchase-item {
+  border-top: 1px solid #AAAAAA;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+// css lecture
+.l-radio {
+  font-size: 30px;
+  margin-left: -20px;
+  margin-top: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.faq-form-item {
+  // border-top: 1px solid #AAAAAA;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.devider {
+  border-top: 1px solid #AAAAAA;
+  padding: 15px;
+  width: 100%;
+}
+
+.ic-close {
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
+  transform: translateY(5px);
+}
+
+.form-file-upload {
+  border: 1px solid #AAAAAA;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  position: relative;
+
+
+  .fa-cloud-arrow-up {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .btn-drag-file {
+    background-color: none !important;
+    border: none;
+    text-align: center;
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+
+  .video-preview, .video-js {
+    z-index: 11;
+    position: absolute;
+    border-radius: 6px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+  }
+
+  .close-file {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 12;
+    color: red;
+    cursor: pointer;
+    font-size: 25px;
+  }
+}
+
+#label-file-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#input-file-upload {
+  display: none;
+}
+
+#drag-file-element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.modal-video-uploading {
+  .modal-header {
+    padding: 10px 20px;
+  }
+
+  .modal-video-body {
+    padding: 15px 20px 40px 20px;
+  }
+}
+.curror-pointer {
+  cursor: pointer;
+}
+
+.calender-align-right {
+  .calendar {
+    right: 0px !important;
+  }
+}
+
+.logo-login {
+  // word-wrap: break-word;
+  // text-shadow: 5px 5px 2px rgb(127 127 127 / 65%);
+  // font-family: 'Arial Black', 'Arial Regular', 'Arial', sans-serif;
+  // font-weight: 900;
+  // font-style: normal;
+  // font-size: 30px;
+  // color: #000080;
+  // text-transform: uppercase;
+  // text-align: center;
+  // height: 50px !important;
+  width: 150px !important;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  display: block;
+}
+
+.disabled-date-picker {
+
+  .btn-clear-input, .container-calender {
+    display: none;
+  }
+
+  .container-input * {
+    cursor: not-allowed;
+  }
+}
+
+.login-icon {
+  color: css.$color-light-gray;
+}
+
+.ck-editor {
+  width: 100% !important;
+}
+
+.width-255 {
+  width: 255px !important;
+}
